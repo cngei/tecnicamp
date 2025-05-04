@@ -1,0 +1,184 @@
+[
+    {
+        "nome": "San Fedele",
+        "image": "sanfedele.jpg",
+        "corsi": [
+            {
+                "image": "campismo.jpg",
+                "titolo": "Campismo in comodità",
+                "descrizione": "Stanco che ad ogni pioggia, la tua tenda intoni “In fondo al mar” di “La Sirenetta”? Affranta che il tuo CR abbia digitato il 115 alla prima scintilla per accendere il fuoco? Estenuato di essere contattato dalla produzione di “Cucine da incubo” ogni volta che prepari qualcosa da mangiare? Esaurita che ogni tua legatura o piccola costruzione sia esposta al MOBA? La soluzione? È proprio qui! La vita al campo ti permetterà di approfondire e sperimentare le tecniche di campismo...in comodità!",
+                "specialita": [
+                    "Campismo",
+                    "Cucina",
+                    "Fuochismo"
+                ],
+                "anni": [
+                    1,
+                    2
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 25
+                },
+                "nuovo": false
+            },
+            {
+                "image": "trapper.jpg",
+                "titolo": "L'arte del trapper: cucina e sopravvivenza",
+                "descrizione": "Preparati a vivere un'avventura da veri Trapper! Passeremo giornate immersi nella natura, imparando a usare tutti gli attrezzi necessari, accendere un bel fuoco in sicurezza in ogni condizione, cucinare con diverse tecniche e montare perfettamente tende e rifugi di fortuna. Cammineremo nei boschi come esploratori, sfruttando il territorio per imparare a sopravvivere. Sarà un’esperienza unica per imparare a cavarsela sempre… divertendoci insieme!",
+                "specialita": [
+                    "Campismo",
+                    "Avventura",
+                    "Fuochismo"
+                ],
+                "anni": [
+                    2,
+                    3
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 20
+                },
+                "nuovo": true
+            },
+            {
+                "image": "survival.jpg",
+                "titolo": "Ultimate Survival",
+                "descrizione": "Vorresti scoprire l'esploratore del Selvaggio West che è in te? Vorresti vivere le imprese del leggendario Bear Grylls? Ti aspetta un'avventura unica, che ti permetterà di diventare maestro di orientamento ed esperta di sopravvivenza e bushcraft. Esploreremo i boschi, sopravvivendo cucinando sul fuoco e costruendo rifugi di fortuna, impareremo a trovare la via di casa osservando le stelle, e vivremo un'avventura nella natura, imparando da essa. Prepara coltellino, bussola e scarponi e unisciti a noi!",
+                "specialita": [
+                    "Campismo",
+                    "Avventura",
+                    "Fuochismo",
+                    "Orientamento"
+                ],
+                "anni": [
+                    2,
+                    3
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 20
+                },
+                "nuovo": true
+            },
+            {
+                "image": "salpiamo.jpg",
+                "titolo": "Salpiamo per l'avventura!",
+                "descrizione": "Hai mai sognato di metterti al timone di una barca, lasciarti spingere dal vento e partire per un’avventura tutta da scoprire? Il nostro corso Tecnicamp è questo... e molto di più! Scoprirai il mondo della vela e della navigazione, imparerai a conoscere il linguaggio dei marinai, a condurre una barca e manovrare le sue vele. Imparerai ad ascoltare il vento e a tracciare nuove rotte, sempre guidato dallo spirito di scoperta, del lavoro di gruppo e dal coraggio. Allora, è il momento di salire a bordo: l’equipaggio ti aspetta! Preparati a mollare gli ormeggi e salpiamo per l’avventura!",
+                "specialita": [
+                    "Abilità acquatiche",
+                    "Navigazione",
+                    "Meteo",
+                    "Nuoto"
+                ],
+                "anni": [
+                    2,
+                    3
+                ],
+                "partecipanti": {
+                    "min": 10,
+                    "max": 15
+                },
+                "nuovo": true
+            },
+            {
+                "image": "pionierismo.jpg",
+                "titolo": "Pioneer of empire!",
+                "descrizione": "Sei affascinato dalle costruzioni maestose? Vuoi cimentarti nella creazione di opere architettoniche come torri, ponti e portali? Questo corso ispirato a Age of Empires è perfetto per te! Scoprirai i segreti della pionieristica scout, padroneggiando tecniche che hanno reso grandi i costruttori del passato. Incontrerai nuovi amici scout e insieme vivrete giorni indimenticabili all'insegna della creatività e del divertimento. Non perdere tempo, iscriviti subito e preparati a costruire il tuo impero! Ti aspettiamo!",
+                "specialita": [
+                    "Pionierismo"
+                ],
+                "anni": [
+                    3,
+                    4
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 20
+                },
+                "nuovo": false
+            },
+            {
+                "image": "er.jpg",
+                "titolo": "ER Scout in prima linea",
+                "descrizione": "Il motto dell'esploratore è chiaro: sii preparato! Per gli esploratori di ER saranno fondamentali sangue freddo, concentrazione e tanta energia, per vivere un'esperienza coinvolgente e senza filtri attraversando varie tecniche scout: dal campismo alla topografia, passando per il fuochismo e l'avventura! Ci sperimenteremo col Primo Soccorso in ogni ambiente in cui uno scout potrebbe trovarsi e dove, con le sue competenze, può fare la differenza. ER-Scout in Prima Linea è adatto per gli intraprendenti, per i fantasiosi, ma soprattutto a tutti quelli affetti da scautite di rara gravità!",
+                "specialita": [
+                    "Primo Soccorso",
+                    "Vita al campo",
+                    "Esplorazione"
+                ],
+                "anni": [
+                    3,
+                    4
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 20
+                },
+                "nuovo": false
+            },
+            {
+                "image": "hike.jpg",
+                "titolo": "Hike... da cima a fondo!",
+                "descrizione": "Avete sempre desiderato esplorare la natura selvaggia attorno a voi, dalle vette che dominano sul lago e oltre, alle profondità della terra?  Saranno 4 giorni di Hike: supereremo le cime delle montagne, in equilibrio sul confine Italia-Svizzera per poi addentrarci nelle viscere della terra alla scoperta di una grotta.  Si sa che, una volta sfiorato il cielo, la via più veloce per scendere è in linea retta, quindi perché non fare del torrentismo!  Tutto molto adrenalinico!...ma sappiamo che i sentieri hanno storie da raccontare e camminare tra i monti è il modo migliore per ascoltare la natura che ci ospiterà.  Insomma, è proprio il caso di dirlo: Hike… da cima a fondo!",
+                "specialita": [
+                    "Avventura",
+                    "Vita al campo",
+                    "Esplorazione"
+                ],
+                "anni": [
+                    4
+                ],
+                "partecipanti": {
+                    "min": 10,
+                    "max": 15
+                },
+                "nuovo": false
+            }
+        ]
+    },
+    {
+        "nome": "Cervignano",
+        "image": "cervignano.jpg",
+        "corsi": [
+            {
+                "image": "campismo.jpg",
+                "titolo": "Campismo in comodità",
+                "descrizione": "Stanco che ad ogni pioggia, la tua tenda intoni “In fondo al mar” di “La Sirenetta”? Affranta che il tuo CR abbia digitato il 115 alla prima scintilla per accendere il fuoco? Estenuato di essere contattato dalla produzione di “Cucine da incubo” ogni volta che prepari qualcosa da mangiare? Esaurita che ogni tua legatura o piccola costruzione sia esposta al MOBA? La soluzione? È proprio qui! La vita al campo ti permetterà di approfondire e sperimentare le tecniche di campismo...in comodità!",
+                "specialita": [
+                    "Campismo",
+                    "Cucina",
+                    "Fuochismo"
+                ],
+                "anni": [
+                    1,
+                    2
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 25
+                },
+                "nuovo": false
+            },
+            {
+                "image": "trapper.jpg",
+                "titolo": "L'arte del trapper: cucina e sopravvivenza",
+                "descrizione": "Preparati a vivere un'avventura da veri Trapper! Passeremo giornate immersi nella natura, imparando a usare tutti gli attrezzi necessari, accendere un bel fuoco in sicurezza in ogni condizione, cucinare con diverse tecniche e montare perfettamente tende e rifugi di fortuna. Cammineremo nei boschi come esploratori, sfruttando il territorio per imparare a sopravvivere. Sarà un’esperienza unica per imparare a cavarsela sempre… divertendoci insieme!",
+                "specialita": [
+                    "Campismo",
+                    "Avventura",
+                    "Fuochismo"
+                ],
+                "anni": [
+                    2,
+                    3
+                ],
+                "partecipanti": {
+                    "min": 15,
+                    "max": 20
+                },
+                "nuovo": true
+            }
+        ]
+    }
+]

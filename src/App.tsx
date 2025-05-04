@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import data from './assets/data.json';
-import { AppBar, Typography, Toolbar, Container, TextField, InputAdornment, Box, MenuItem, Slider, Card, CardMedia, CardContent, Chip, useMediaQuery, Select, Autocomplete } from '@mui/material';
 import { Search } from '@mui/icons-material';
+import { AppBar, Autocomplete, Box, Card, CardContent, CardMedia, Chip, InputAdornment, Slider, TextField, Toolbar, Typography, useMediaQuery } from '@mui/material';
+import { useEffect, useState } from 'react';
+import data from './assets/data.json';
 
 interface Corso {
   image: string;
@@ -81,8 +81,8 @@ function App() {
           <Box display="flex" alignItems="center" gap={2}>
             <Autocomplete 
               size='small'
-              value={selectedBase}
-              onChange={(e, value) => setSelectedBase(value?.value || '')}
+              value={{value:selectedBase, label: selectedBase}}
+              onChange={(_, value) => setSelectedBase(value?.value || '')}
               fullWidth
               renderInput={params => <TextField {...params} label="Base" />} 
               options={data.map(base => ({label: base.nome, value: base.nome}))}
@@ -91,7 +91,7 @@ function App() {
               <Slider
                 getAriaLabel={() => 'Anno'}
                 value={selectedAnno}
-                onChange={e => setSelectedAnno(e.target!.value)}
+                onChange={(_, value) => setSelectedAnno(value as number[])}
                 valueLabelDisplay="off"
                 getAriaValueText={anno => anno.toString()}
               min={1}

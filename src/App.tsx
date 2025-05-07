@@ -18,6 +18,7 @@ interface Corso {
 
 interface Base {
   nome: string;
+  titolo: string;
   image: string;
   corsi: Corso[];
 }
@@ -120,9 +121,9 @@ function App() {
                   px: 4,
                   py: 2
                 }}>
-                  <Typography sx={{color: 'white', fontSize: '2rem', fontWeight: 'bold'}}>{base.nome}</Typography>
+                  <Typography sx={{color: 'white', fontSize: '2rem', fontWeight: 'bold'}}>{base.titolo}</Typography>
                 </Box>
-                <Box sx={{maxWidth: 'max(700px, 80%)', display: 'grid', gridAutoFlow: 'row', gridTemplateColumns: isSmall ? '1fr' : 'repeat(auto-fill, minmax(30%, 1fr))', gap: 2, mx: 2, my: 2}}>
+                <Box sx={{maxWidth: 'max(700px, 80%)', display: 'grid', gridAutoFlow: 'row', gridTemplateColumns: isSmall ? '1fr' : 'repeat(auto-fill, minmax(40%, 1fr))', gap: 2, mx: 2, my: 2}}>
                   {base.corsi.map(corso => (
                     <Card key={corso.titolo} sx={{height: '100%'}}> 
                       <CardMedia

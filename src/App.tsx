@@ -1,5 +1,5 @@
 import { Search } from '@mui/icons-material';
-import { AppBar, Autocomplete, Box, Card, CardContent, CardMedia, Chip, InputAdornment, Slider, TextField, Toolbar, Typography, useMediaQuery } from '@mui/material';
+import { AppBar, Autocomplete, Box, Card, CardContent, CardMedia, Chip, Container, InputAdornment, Slider, TextField, Toolbar, Typography, useMediaQuery } from '@mui/material';
 import { useEffect, useState } from 'react';
 import data from './assets/data.json';
 
@@ -106,6 +106,15 @@ function App() {
         </Box>
       </AppBar>
       <Box display="flex" flexDirection="column" gap={2} width="100%" mx={0}>
+          <Container sx={{py: 2}}>
+            <Typography variant="body1">
+              Il <strong>Tecnicamp</strong> è un’Attività Nazionale della Branca <strong>Esploratori ed Esploratrici</strong>: sviluppato in più basi scout in tutta Italia, permette ad esploratrici ed esploratori di migliorare la propria conoscenza delle tecniche scout e di sperimentarne di nuove.
+              <br />
+              Edizione 2025: <strong>6 basi</strong> Tecnicamp lungo tutto il territorio italiano, sempre più strutturate nelle proposte e nelle tecniche per cercare di arrivare a tutti e tutte. Inoltre da quest’anno, le nostre basi saranno caratterizzate da un nome che sia per loro unico ed evocativo, con un pizzico di tecnica ma anche di sogni, aiutandoci a dare ulteriore <strong>slancio</strong> a questo fantastico evento nazionale: soffiano i <strong>Venti</strong> dell’avventura!
+              <br />
+              Da quale vi lascerete rapire?
+            </Typography>
+          </Container>
           {filteredData.map(base => (
             <Box key={base.nome} sx={{display: 'flex', flexDirection: 'column', gap: 2, justifyContent: 'center', alignItems: 'center'}}>
                 <Box sx={{

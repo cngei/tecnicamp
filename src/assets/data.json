@@ -1,7 +1,7 @@
 [
     {
         "nome": "San Fedele",
-        "titolo": "TRAMONTANA - San Fedele 27-31/8",
+        "titolo": "TRAMONTANA - Lombardia / San Fedele (CO)",
         "image": "sanfedele.jpg",
         "corsi": [
             {
@@ -140,7 +140,7 @@
     },
     {
         "nome": "Cervignano",
-        "titolo": "BORA - Cervignano 24-28/8",
+        "titolo": "BORA - Friuli-Venezia Giulia / Cervignano (UD)",
         "image": "cervignano.jpg",
         "corsi": [
             {
@@ -181,7 +181,7 @@
     },
     {
         "nome": "Approdo Punta Nord",
-        "titolo": "LEVANTE - Approdo 28/8-1/9",
+        "titolo": "LEVANTE - Emilia Romagna / Approdo Punta Nord (RN)",
         "image": "approdo.jpg",
         "corsi": [
             {
@@ -326,7 +326,7 @@
     },
     {
         "nome": "Tuscania",
-        "titolo": "PONENTE - Base Masci \"Madonna del Cerro\" - Tuscania (VT) 28/8-1/9",
+        "titolo": "PONENTE - Lazio / Tuscania (VT)",
         "image": "tuscania.jpg",
         "corsi": [
             {
@@ -516,7 +516,7 @@
     },
     {
         "nome": "Spianessa",
-        "titolo": "MAESTRALE - Spianessa 27-31/8",
+        "titolo": "MAESTRALE - Toscana / Spianessa (PT)",
         "image": "spianessa.jpg",
         "corsi": [
             {
@@ -633,7 +633,7 @@
     },
     {
         "nome": "Forge",
-        "titolo": "LIBECCIO - Reggio Calabria 28/8-1/9",
+        "titolo": "LIBECCIO - Calabria / Forge (RC)",
         "image": "forge.jpg",
         "corsi": [
             {

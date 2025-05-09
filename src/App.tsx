@@ -86,7 +86,7 @@ function App() {
               onChange={(_, value) => setSelectedBase(value?.value || '')}
               fullWidth
               renderInput={params => <TextField {...params} label="Base" />} 
-              options={data.map(base => ({label: base.nome, value: base.nome}))}
+              options={data.map(base => ({label: base.titolo, value: base.nome}))}
             />
             <Box sx={{width: '90%', px: 4}}>
               <Slider

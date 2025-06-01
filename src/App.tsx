@@ -160,6 +160,16 @@ function App() {
               <AccordionSummary
                 expandIcon={<ExpandMore />}
               >
+                <Typography component="span">Ho un problema tecnico</Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                Clicca il pulsante <strong>Richieste di assistenza</strong> in alto e segui le istruzioni. <strong>Se e solo se</strong> non riesci a creare un ticket, contattaci all'indirizzo help@cngei.it
+              </AccordionDetails>
+            </Accordion>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMore />}
+              >
                 <Typography component="span">Il corso che volevo fare è già completo. Posso mettermi in lista di attesa?</Typography>
               </AccordionSummary>
               <AccordionDetails>

@@ -1,734 +1,547 @@
 [
-    {
-        "nome": "San Fedele",
-        "titolo": "TRAMONTANA - Lombardia / San Fedele (CO)",
-        "image": "sanfedele.jpg",
-        "corsi": [
-            {
-                "image": "campismo.jpg",
-                "titolo": "Campismo in comodità",
-                "descrizione": "Stanco che ad ogni pioggia, la tua tenda intoni \"In fondo al mar\" di \"La Sirenetta\"? Affranta che il tuo CR abbia digitato il 115 alla prima scintilla per accendere il fuoco? Estenuato di essere contattato dalla produzione di \"Cucine da incubo\" ogni volta che prepari qualcosa da mangiare? Esaurita che ogni tua legatura o piccola costruzione sia esposta al MOBA? La soluzione? È proprio qui! La vita al campo ti permetterà di approfondire e sperimentare le tecniche di campismo...in comodità!",
-                "specialita": [
-                    "Campismo",
-                    "Cucina",
-                    "Fuochismo"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "trapper.jpg",
-                "titolo": "L'arte del trapper: cucina e sopravvivenza",
-                "descrizione": "Preparati a vivere un'avventura da veri Trapper! Passeremo giornate immersi nella natura, imparando a usare tutti gli attrezzi necessari, accendere un bel fuoco in sicurezza in ogni condizione, cucinare con diverse tecniche e montare perfettamente tende e rifugi di fortuna. Cammineremo nei boschi come esploratori, sfruttando il territorio per imparare a sopravvivere. Sarà un'esperienza unica per imparare a cavarsela sempre… divertendoci insieme!",
-                "specialita": [
-                    "Campismo",
-                    "Avventura",
-                    "Fuochismo"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 20
-                },
-                "nuovo": true
-            },
-            {
-                "image": "survival.jpg",
-                "titolo": "Ultimate Survival",
-                "descrizione": "Vorresti scoprire l'esploratore del Selvaggio West che è in te? Vorresti vivere le imprese del leggendario Bear Grylls? Ti aspetta un'avventura unica, che ti permetterà di diventare maestro di orientamento ed esperta di sopravvivenza e bushcraft. Esploreremo i boschi, sopravvivendo cucinando sul fuoco e costruendo rifugi di fortuna, impareremo a trovare la via di casa osservando le stelle, e vivremo un'avventura nella natura, imparando da essa. Prepara coltellino, bussola e scarponi e unisciti a noi!",
-                "specialita": [
-                    "Campismo",
-                    "Avventura",
-                    "Fuochismo",
-                    "Orientamento"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 20
-                },
-                "nuovo": true
-            },
-            {
-                "image": "nautica.png",
-                "titolo": "Salpiamo per l'avventura!",
-                "descrizione": "Hai mai sognato di metterti al timone di una barca, lasciarti spingere dal vento e partire per un'avventura tutta da scoprire? Il nostro corso Tecnicamp è questo... e molto di più! Scoprirai il mondo della vela e della navigazione, imparerai a conoscere il linguaggio dei marinai, a condurre una barca e manovrare le sue vele. Imparerai ad ascoltare il vento e a tracciare nuove rotte, sempre guidato dallo spirito di scoperta, del lavoro di gruppo e dal coraggio. Allora, è il momento di salire a bordo: l'equipaggio ti aspetta! Preparati a mollare gli ormeggi e salpiamo per l'avventura!",
-                "specialita": [
-                    "Abilità acquatiche",
-                    "Navigazione",
-                    "Meteo",
-                    "Nuoto"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 10,
-                    "max": 15
-                },
-                "nuovo": true
-            },
-            {
-                "image": "pionierismo.jpg",
-                "titolo": "Pioneer of empire!",
-                "descrizione": "Sei affascinato dalle costruzioni maestose? Vuoi cimentarti nella creazione di opere architettoniche come torri, ponti e portali? Questo corso ispirato a Age of Empires è perfetto per te! Scoprirai i segreti della pionieristica scout, padroneggiando tecniche che hanno reso grandi i costruttori del passato. Incontrerai nuovi amici scout e insieme vivrete giorni indimenticabili all'insegna della creatività e del divertimento. Non perdere tempo, iscriviti subito e preparati a costruire il tuo impero! Ti aspettiamo!",
-                "specialita": [
-                    "Pionierismo"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 20
-                },
-                "nuovo": false
-            },
-            {
-                "image": "er.jpg",
-                "titolo": "ER Scout in prima linea",
-                "descrizione": "Il motto dell'esploratore è chiaro: sii preparato! Per gli esploratori di ER saranno fondamentali sangue freddo, concentrazione e tanta energia, per vivere un'esperienza coinvolgente e senza filtri attraversando varie tecniche scout: dal campismo alla topografia, passando per il fuochismo e l'avventura! Ci sperimenteremo col Primo Soccorso in ogni ambiente in cui uno scout potrebbe trovarsi e dove, con le sue competenze, può fare la differenza. ER-Scout in Prima Linea è adatto per gli intraprendenti, per i fantasiosi, ma soprattutto a tutti quelli affetti da scautite di rara gravità!",
-                "specialita": [
-                    "Primo Soccorso",
-                    "Vita al campo",
-                    "Esplorazione"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 20
-                },
-                "nuovo": false
-            },
-            {
-                "image": "hike.jpg",
-                "titolo": "Hike... da cima a fondo!",
-                "descrizione": "Avete sempre desiderato esplorare la natura selvaggia attorno a voi, dalle vette che dominano sul lago e oltre, alle profondità della terra?  Saranno 4 giorni di Hike: supereremo le cime delle montagne, in equilibrio sul confine Italia-Svizzera per poi addentrarci nelle viscere della terra alla scoperta di una grotta.  Si sa che, una volta sfiorato il cielo, la via più veloce per scendere è in linea retta, quindi perché non fare del torrentismo!  Tutto molto adrenalinico!...ma sappiamo che i sentieri hanno storie da raccontare e camminare tra i monti è il modo migliore per ascoltare la natura che ci ospiterà.  Insomma, è proprio il caso di dirlo: Hike… da cima a fondo!",
-                "specialita": [
-                    "Avventura",
-                    "Vita al campo",
-                    "Esplorazione"
-                ],
-                "anni": [
-                    4
-                ],
-                "partecipanti": {
-                    "min": 10,
-                    "max": 15
-                },
-                "nuovo": false
-            }
-        ]
-    },
-    {
-        "nome": "Cervignano",
-        "titolo": "BORA - Friuli-Venezia Giulia / Cervignano (UD)",
-        "image": "cervignano.jpg",
-        "corsi": [
-            {
-                "image": "internazionale.jpg",
-                "titolo": "Amicizia internazionale - TEK! Che amicizia senza confini!",
-                "descrizione": "Il Friuli Venezia Giulia è una regione di confine, da sempre un crocevia di popoli in movimento. È qui che vi coinvolgeremo in un viaggio nel tempo e nello spazio per capire cos'è oggi l'Amicizia Internazionale. Che opportunità, sogni, aspirazioni e possibilità hanno Scout come voi che vivono in altre parti del mondo? Che ruolo ha la loro società e la comunità internazionale nel supportare questi sogni?  Percorreremo un tratto della rotta balcanica, via percorsa da migliaia di persone che si lasciano alle spalle posti ostili con la speranza di potersi realizzare altrove… siete pronti a vivere con noi tutto questo? Vi aspettiamo!",
-                "specialita": [
-                    "Amicizia internazionale"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 20
-                },
-                "nuovo": false
-            },
-            {
-                "image": "pionierismo.jpg",
-                "titolo": "Pionierismo - ventimila leghe sotto i nodi: un'avventura pionieristica",
-                "descrizione": "Esplora il potenziale di una semplice corda! Scopri tipologie, caratteristiche e usi. Addentrati nel mondo dei nodi e impara a realizzarli in sicurezza. Libera la creatività trasformando cordini in oggetti decorativi, metti alla prova le tue abilità con le legature, vedrai materializzarsi costruzioni che sfideranno la tua immaginazione. Imparerai a utilizzare corde e strumenti in modo responsabile, rispettando l'ambiente e lavorando. Preparati a un'avventura indimenticabile, dove la corda diventa strumento di esplorazione, creazione e superamento dei limiti.",
-                "specialita": [
-                    "Pionierismo"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 25
-                },
-                "nuovo": false
-            }
-        ]
-    },
-    {
-        "nome": "Approdo Punta Nord",
-        "titolo": "LEVANTE - Emilia Romagna / Approdo Punta Nord (RN)",
-        "image": "approdo.jpg",
-        "corsi": [
-            {
-                "image": "knot.jpg",
-                "titolo": "Not Only Knot",
-                "descrizione": "Sei ai primi anni di reparto e la pionieristica ti incuriosisce?  Ti piace costruire, legare, sollevare… ma ti sembra che sia tutto solo tavoli, treppiedi e corde?  Beh, preparati a cambiare idea: questo è solo l'inizio!  Dai spazio alla tua creatività, immagina, progetta e costruisci come mai prima.  Mille modi di fare e mille idee… più una!  Assieme costruiremo  un vero parco giochi scout fatto con le nostre mani, e impareremo come rendere unico l'angolo di pattuglia usando le tecniche più creative e divertenti.  Con delle buone basi, l'unico limite è la tua fantasia.  Cosa stai aspettando?  Unisciti a noi e scopri quanto può essere entusiasmante il mondo della pionieristica!  Cos'è il pionierismo? Not Only Knot!",
-                "specialita": [
-                    "Pionierismo",
-                    "Artigianato",
-                    "Campismo"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "spettacolo.jpg",
-                "titolo": "Accendi lo spettacolo",
-                "descrizione": "Hai voglia di accendere la scintilla giusta?  Non parliamo solo di fuochi e legna… ma di fantasia, creatività e quella magia che nasce quando ci si diverte davvero insieme!  Se ti piace stare all'aperto, inventare, ridere, imparare cose nuove e trasformare una semplice serata in qualcosa di speciale, allora questo è il posto giusto per te.  Impareremo tecniche avanzate per accendere il fuoco, giocheremo con la voce, le idee e l'energia del gruppo… e scopriremo come far brillare l'atmosfera con un tocco tutto nostro.  Porta con te solo la voglia di metterti in gioco. Il resto? Lo accendiamo insieme.",
-                "specialita": [
-                    "Fuochismo",
-                    "Animazione"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "mari.jpg",
-                "titolo": "L'Eco dei Mari",
-                "descrizione": "Il mare diventerà la nostra casa, il vento e le stelle la nostra guida, l'avventura la nostra fedele compagna. Scopriremo i segreti che si nascondono tra le onde e la sabbia, remeremo insieme ed impareremo a orientarci in mare. Costruiremo zattere di salvataggio e ci tufferemo in attività e sport acquatici.  Ci lasceremo bagnare dal sale, ascolteremo il canto del mare imparando a rispettarlo e a proteggerlo.  Sarà un viaggio tra sole e tempeste, risate e silenzi, con mani che si tendono e occhi che guardano lontano.  Tuffati con noi, il mare ci chiama.",
-                "specialita": [
-                    "Abilità acquatiche",
-                    "Canottaggio",
-                    "Impatto ambientale",
-                    "Nuoto"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 24
-                },
-                "nuovo": false
-            },
-            {
-                "image": "cucina.jpg",
-                "titolo": "Cucina da sogno",
-                "descrizione": "Ti piace spadellare, sperimentare e dare un tocco tutto tuo ai piatti che prepari?  Hai voglia di scoprire nuove ricette da aggiungere al tuo repertorio segreto e da condividere con il tuo Reparto?  Ti incuriosiscono tecniche di cucina un po' diverse dal solito e magari vuoi capire come quello che mangiamo può fare la differenza per il nostro pianeta?  Se hai annuito anche solo una volta… beh, questo corso è fatto apposta per te!  Prepara mestoli, curiosità e voglia di divertirti... si cucina sul serio!",
-                "specialita": [
-                    "Cucina",
-                    "Fuochismo",
-                    "Impatto ambientale",
-                    "Trappeur"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 25
-                },
-                "nuovo": true
-            },
-            {
-                "image": "bosco.jpg",
-                "titolo": "La Via del Bosco - Sentieri Selvaggi per anime libere",
-                "descrizione": "Hai voglia di vivere un' autentica, epica avventura ?! Allora cosa aspetti??  Cammina con noi! Percorreremo sentieri selvaggi portando nello zaino solo l'indispensabile... Con noi imparerai come orientarti, dove accamparti, come costruire un riparo con quello che la natura ti offre e come trovare cibo, acqua ed esche per accendere i fuoco. Potrai finalmente ritrovare il tuo istinto primordiale e imparare a leggere i segni e i rumori della natura e a vivere veramente in armonia con essa e con i suoi abitanti... Terra, Fuoco e Acqua ci accompagneranno in questa avventura e saranno i nostri preziosi alleati... In questi giorni impareremo che, in realtà, non esistono problemi... ma solo soluzioni! Allora?... Sei pronto a partire?! Ci accompagnerà anche Marco, istruttore Nazionale di Sopravvivenza CSEN della Wolf's Spirit Survival School. Sei curioso? Da un'occhiata al sito: https://www.wolfspiritsurvival.com/",
-                "specialita": [
-                    "Fuochismo",
-                    "Ambiente",
-                    "Avventura",
-                    "Esplorazione",
-                    "Orientamento",
-                    "Pionierismo",
-                    "Primo Soccorso",
-                    "Trappeur"
-                ],
-                "anni": [
-                    4
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 22
-                },
-                "nuovo": false
-            },
-            {
-                "image": "settemari.jpg",
-                "titolo": "Esplorando i Sette mari con Sindbad",
-                "descrizione": "Vuoi vivere il mare da protagonista? Allora questa è l'occasione che aspettavi per imparare davvero a navigare, sentire la barca sotto i piedi, fidarsi del timone, cercare la rotta con gli occhi e con il cuore. Unisciti a chi ha scelto di scoprire il mondo navigando. Ogni pinneggiata porta più lontano, ogni vela tesa regala un'emozione nuova. Non è solo navigare… è respirare insieme al mare. Vivi l'estate in modo unico… e chissà, magari anche il tuo futuro! Iscriviti ora: il mare ti aspetta.",
-                "specialita": [
-                    "Ambiente acquatico",
-                    "Abilità acquatiche",
-                    "Skipper",
-                    "Meteo",
-                    "Nuoto"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 20,
-                    "max": 24
-                },
-                "nuovo": false
-            },
-            {
-                "image": "change.jpg",
-                "titolo": "Be the change",
-                "descrizione": "È tempo di agire. È tempo di cambiare. Se senti dentro una voce che spinge, un'idea che brucia, un sogno che non ci sta in tasca… è ora di metterti in gioco! Partecipa a un'esperienza che lascia il segno. Laboratori fuori dagli schemi, sfide da affrontare insieme, missioni nel territorio, incontri con chi il cambiamento lo vive ogni giorno. Scopriremo cosa vuol dire davvero difendere i diritti, vivere la cittadinanza attiva e costruire realtà nuove, coraggiose, vere. Se hai il coraggio di crederci, anche quando sembra impossibile… allora questo è il tuo corso. Perché il cambiamento comincia oggi, comincia qui, comincia da te!",
-                "specialita": [
-                    "Sfide globali",
-                    "Impatto nella comunità"
-                ],
-                "anni": [
-                    4
-                ],
-                "partecipanti": {
-                    "min": 10,
-                    "max": 25
-                },
-                "nuovo": true
-            }
-        ]
-    },
-    {
-        "nome": "Tuscania",
-        "titolo": "PONENTE - Lazio / Tuscania (VT)",
-        "image": "tuscania.jpg",
-        "corsi": [
-            {
-                "image": "fuochismo.jpg",
-                "titolo": "Fuochismo - Accendi l'avventura",
-                "descrizione": "Hai finito l'hike ma i fiammiferi sono rimasti a valle? Intorno a te solo legna bagnata e zero idee su come cucinare? La tenda si è smontata nel cuore della notte e non riesci a vedere nulla? Niente panico: ogni imprevisto può diventare una grande opportunità! Preparati a vivere un'esperienza da veri esploratori. Al Tecnicamp 2025 accenderemo l'avventura insieme: impareremo a fare fuochi, cucinare, costruire e tanto altro! Zaino in spalla, acciarino in tasca… si parte!",
-                "specialita": [
-                    "Vita al campo",
-                    "Fuochista",
-                    "Artigianato",
-                    "Animazione"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 16,
-                    "max": 28
-                },
-                "nuovo": false
-            },
-            {
-                "image": "olimpia.jpg",
-                "titolo": "Olimpia - Scout games - La via dell'Olimpo",
-                "descrizione": "Pronti a diventare eroi dell'antica Grecia? In questi cinque giorni di titaniche sfide arriverai dritto nel cuore delle Olimpiadi greche: sfide epiche, giochi di squadra mozzafiato e prove di astuzia da veri campioni! Indosserai medaglie e combatterai per la gloria… e per un sacco di divertimento! Che tu sia un veloce messaggero spartano o un astuto stratega ateniese, troverai il tuo posto nella squadra. Tra gare, enigmi e missioni leggendarie, ogni giornata sarà un'avventura diversa. Vieni a scrivere la tua leggenda olimpica con noi. Il fuoco sacro ti aspetta: parteciperai?",
-                "specialita": [
-                    "Olimpia",
-                    "Giochi di squadra",
-                    "Benessere"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 12,
-                    "max": 28
-                },
-                "nuovo": true
-            },
-            {
-                "image": "survival2.jpg",
-                "titolo": "Surviving Extreme",
-                "descrizione": "Preparati a sfidare te stesso, ad affrontare l'ignoto e a riscoprire la forza del gruppo. Surviving Extreme Scout non è un semplice campo scout: è un'esperienza totale immersa nella natura più selvaggia, dove la sopravvivenza incontra l'adrenalina. Tra prove fisiche estreme, tecniche avanzate di bushcraft, orientamento, costruzioni, fuochi e notti sotto le stelle, ogni giornata è una sfida da superare con coraggio, intelligenza e spirito di squadra. Non ci saranno comodità, solo ciò che la natura offre… e ciò che sei pronto a diventare. Sei pronto a scoprire chi sei davvero, quando non hai più nulla… tranne te stesso? Pensi di essere all'altezza? Vieni a dimostrarlo!!",
-                "specialita": [
-                    "Campismo",
-                    "Fuochismo",
-                    "Vita al Campo",
-                    "Pionerismo",
-                    "Ambiente"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 12,
-                    "max": 28
-                },
-                "nuovo": false
-            },
-            {
-                "image": "survival.jpg",
-                "titolo": "Surviving First Steps",
-                "descrizione": "Diceva B.P.: \"Non esiste buono o cattivo tempo, ma buono o cattivo equipaggiamento\". E quale miglior equipaggiamento delle nostre conoscenze e abilità? Sapresti come intervenire di fronte alla situazione più imprevista? Il coraggio non è nulla senza una buona dose di TECNICA! Fuoco, acqua, primo soccorso, segnalazione, topografia, chiamate di emergenza... La prossima volta, sarà Bear Grylls a venire a chiedere aiuto a te! Vieni a scoprire le tecniche che faranno di TE... la persona giusta, al momento giusto!",
-                "specialita": [
-                    "Primo Soccorso",
-                    "Trappeur",
-                    "Comunicazione",
-                    "Avventura",
-                    "Esplorazione",
-                    "Orientamento"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 12,
-                    "max": 24
-                },
-                "nuovo": true
-            },
-            {
-                "image": "pionierismo.jpg",
-                "titolo": "Pionierismo - Vita sugli alberi",
-                "descrizione": "La vita in tenda lascia sempre un sacco di ricordi, lo sappiamo benissimo. Ma cosa succede se le nostre canadesi non le picchettassimo a terra ma a qualche metro da terra? Follia, penserete; ma per noi ormai è diventata una costante e non ne possiamo più fare a meno. Se vorrai abbracciare con noi la vita sugli alberi e costruire torrette, scale e molto altro, sai già che corso scegliere! Nuove tecniche e un sacco di calli ti aspettano!",
-                "specialita": [
-                    "Pionerismo",
-                    "Hebertismo",
-                    "Vita al campo"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 16,
-                    "max": 28
-                },
-                "nuovo": false
-            },
-            {
-                "image": "hike.jpg",
-                "titolo": "Orme Ribelli: Tuscia Wild",
-                "descrizione": "Adrenalina, natura selvaggia e spirito di squadra: pronto per la sfida? Il TEK hike della base Tuscania è un concentrato di avventura che aspetta solo te! Esplora sentieri panoramici, impara tecniche di sopravvivenza e orientamento. Scopri la bellezza mozzafiato della Tuscia, sfida te stesso e supera i tuoi limiti. Vivrai un'esperienza indimenticabile, con sudore, fatica e un'immersione totale nella natura. L'avventura inizia qui! Unisciti a noi e scopri fiumi, mari, boschi senza confini, i chiari orizzonti e le verdi colline.",
-                "specialita": [
-                    "Esplorazione",
-                    "Orientamento",
-                    "Osservazione",
-                    "Impatto Ambientale",
-                    "Benessere"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 10,
-                    "max": 22
-                },
-                "nuovo": false
-            },
-            {
-                "image": "nautica.jpg",
-                "titolo": "Nautica e Carpenteria - La via dei Vichinghi",
-                "descrizione": "C'è un richiamo che attraversa i secoli. È il canto del legno che scricchiola sotto le mani forti. È il suono dei remi che fendono acque sconosciute. È la voce dei Vichinghi, che ancora oggi sfida chi ha il coraggio di costruire il proprio destino. In questo corso diventerai parte di una ciurma leggendaria: costruirai con le tue mani una canoa degna dei grandi guerrieri del Nord. Imparerai a navigare come loro, a leggere il vento, l'acqua, le stelle. Non sarai un semplice esploratore. Sarai un Vichingo. E quando il tuo scafo toccherà l'acqua… il mondo saprà che i figli del Nord sono tornati.",
-                "specialita": [
-                    "Carpenteria navale",
-                    "Ambiente acquatico",
-                    "Vogatore",
-                    "Artigianato"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 18,
-                    "max": 24
-                },
-                "nuovo": false
-            },
-            {
-                "image": "animazione.jpg",
-                "titolo": "Personaggi Fantastici e Dove Trovarli",
-                "descrizione": "Dentro la tua mente ci sono mille e più avventure? Non deve restare tutto dentro la tua testa, basta solo un po' di fantasia! Vedremo come nascono personaggi che divertano tutti quanti, compresi noi, e vivremo insieme a loro varie avventure. L'animazione ai fuochi non sarà più la stessa, impareremo a rendere fantastici anche questi momenti! Scopriremo come creare costumi di scena con poco e come integrare la tecnologia nell'animazione. Non serve saper recitare, metti tanta creatività nello zaino e preparati a vivere questo magico viaggio con noi!",
-                "specialita": [
-                    "Animazione",
-                    "Videomaking",
-                    "Arti grafiche",
-                    "Artigianato"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 8,
-                    "max": 24
-                },
-                "nuovo": true
-            },
-            {
-                "image": "trapper.jpg",
-                "titolo": "Trapper Express",
-                "descrizione": "Vuoi sopravvivere nella natura? Ma non solo sopravvivere… goderti il campo come un vero pascià? Mettiti in gioco in questo super corso Tecnicamp, e \"con corda di canapa mi sono fatto la radio e la TV\" non rimarrà soltanto un verso di una canzone! In questo corso scoprirai tutti i segreti del pionierismo, imparerai a realizzare delle costruzioni da campo da paura, diventerai un drago del fuochismo e della cucina da campo, e ti trasformerai in un vero trapper (mica come Tony Effe). Sei pronto ad assaporare l'avventura? Allora non perderti: ci vediamo alla base!",
-                "specialita": [
-                    "Pionierismo",
-                    "Campismo",
-                    "Fuochismo",
-                    "Cucina da campo",
-                    "Trappeur"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 18,
-                    "max": 24
-                },
-                "nuovo": true
-            }
-        ]
-    },
-    {
-        "nome": "Spianessa",
-        "titolo": "MAESTRALE - Toscana / Spianessa (PT)",
-        "image": "spianessa.jpg",
-        "corsi": [
-            {
-                "image": "hunger.jpg",
-                "titolo": "Hunger Scout",
-                "descrizione": "È arrivato il momento di metterti alla prova e scoprire di cosa sei davvero capace. Se hai voglia di avventura, sete di conoscenza e il desiderio di imparare a cavartela in ogni situazione, questo è il corso che fa per te. Imparerai a leggere l'ambiente che ti circonda, a sfruttare le risorse della natura e ad affrontare le emergenze con ingegno e spirito pratico, utilizzando solo l'essenziale. Lascia che il tuo istinto prenda il sopravvento e preparati a vivere un'esperienza che ti cambierà per sempre.",
-                "specialita": [
-                    "Esplorazione",
-                    "Orientamento",
-                    "Avventura"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 17,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "fuochismo.jpg",
-                "titolo": "Taste of Adventure",
-                "descrizione": "Da quando è finito il campo senti la mancanza dell'odore del fuoco? Non vedi l'ora di sorprendere la tua pattuglia o il tuo equipaggio con nuove ricette straordinarie alla prossima gara di cucina? Questo è il corso che fa per te! Preparati a mettere le mani in pasta per creare ricette che scalderanno lo stomaco e il cuore. Afferra la gavetta vieni a scoprire il sapore dell'avventura!",
-                "specialita": [
-                    "Fuochismo",
-                    "Vita al campo"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 14,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "power.jpg",
-                "titolo": "Scout Power Games",
-                "descrizione": "Scopri il segreto nascosto nel cuore pulsante della città delle leggende. Un'esperienza fuori dal comune ti aspetta: un viaggio tra competizioni leggendarie, corse mozzafiato, percorsi Hebert immersivi e sfide titaniche che metteranno alla prova ogni fibra del tuo coraggio. Sarai pronto a vivere l'adrenalina, il sudore e la passione di un campo d'addestramento degno degli dei? Unisciti a Percy Jackson e a una squadra di valorosi semidei nel leggendario Campo Mezzosangue: non un semplice corso, ma un'avventura che ti cambierà.",
-                "specialita": [
-                    "Gioco di squadra",
-                    "Hebertismo"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 14,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "overcamp.jpg",
-                "titolo": "Overcamp",
-                "descrizione": "Scopriremo insieme come preparare un'avventura fantastica fra boschi di faggi, creste panoramiche, laghi lucenti come specchi e tramonti mozzafiato. Sei pronto a imparare ad usare la tecnologia per esplorare un territorio sconosciuto? Vuoi scoprire cosa hanno in comune previsioni meteo, mappe, tracce di sentieri… Ma soprattutto, sei pronto a mettere tutte le tue sicurezze in uno zaino essenziale e superare i tuoi limiti in un lungo hike itinerante sulle montagne dell'Appennino Tosco-Emiliano? Unisciti a noi e imparerai che l'avventura inizia molto prima di partire e finisce molto dopo essere tornati a casa!",
-                "specialita": [
-                    "Avventura",
-                    "Orientamento"
-                ],
-                "anni": [
-                    4
-                ],
-                "partecipanti": {
-                    "min": 14,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "oscar.jpg",
-                "titolo": "Fuochi da Oscar",
-                "descrizione": "Ti piace recitare, costruire, dipingere o far ridere gli altri? Allora questo corso è fatto per te! Insieme impareremo a trasformare ogni scenetta in uno spettacolo indimenticabile! Ci dedicheremo alla creazione di maschere, vestiti di scena, effetti speciali, oggetti decorativi e tutto ciò che può rendere unica l'animazione di un fuoco. Imparerai tante nuove tecniche e modalità in cui raccontare una storia e scoprirai come il pionierismo e il fuochismo, insieme a tanta fantasia possano essere la chiave per un momento magico e coinvolgente. Pronti a salire sul palco?",
-                "specialita": [
-                    "Animazione",
-                    "Artista",
-                    "Amante della musica"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 14,
-                    "max": 25
-                },
-                "nuovo": true
-            },
-            {
-                "image": "esplorazione.jpg",
-                "titolo": "NATURE EXPLORERS",
-                "descrizione": "Sei pronto a vestire i panni di un vero \"NATURE EXPLORER\" e a decifrare i segreti che la natura custodisce gelosamente? In questo corso itinerante, ti immergerai in un'esperienza pratica e coinvolgente, imparando a riconoscere le piante che ci circondano e a interpretare il linguaggio silenzioso del suolo e dei suoi abitanti. Acquisirai le competenze per muoverti nella natura con consapevolezza e rispetto. Ma non finisce qui: scoprirai anche come le tue azioni possono fare la differenza, lasciando un'impronta positiva sul nostro pianeta. Unisciti a noi per un'avventura indimenticabile all'aria aperta, ricca di scoperte pratiche e di un profondo legame con l'ambiente che ci ospita. Zaini in spalla, ti aspettiamo!",
-                "specialita": [
-                    "Avventura",
-                    "Esplorazione",
-                    "Orientamento"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 14,
-                    "max": 25
-                },
-                "nuovo": true
-            }
-        ]
-    },
-    {
-        "nome": "Forge",
-        "titolo": "LIBECCIO - Calabria / Forge (RC)",
-        "image": "forge.jpg",
-        "corsi": [
-            {
-                "image": "animazione.jpg",
-                "titolo": "FUOCO ALLA FANTASIA",
-                "descrizione": "Prestigiosa compagnia teatrale cerca fuochisti, musicisti, macchinisti, scenografi, costumisti, attori, autori… per ingaggio estivo. Non conta l'esperienza ma la voglia di mettersi in gioco: partiremo da una scintilla per accendere un grande fuoco. Al termine del corso potrai essere parte di un grande evento e tornare a casa dal tuo reparto con una marcia in più.",
-                "specialita": [
-                    "Fuochismo",
-                    "Animazione"
-                ],
-                "anni": [
-                    1,
-                    2
-                ],
-                "partecipanti": {
-                    "min": 10,
-                    "max": 24
-                },
-                "nuovo": false
-            },
-            {
-                "image": "survival.jpg",
-                "titolo": "SURVIVE!",
-                "descrizione": "Hai mai sognato di vivere un'avventura nella natura selvaggia, lontano dalle comodità del mondo moderno? Questa è la tua occasione! Lascia la civiltà alle spalle e unisciti a noi! Imparerai a fare della natura la tua casa e a trasformare quello che l'ambiente ti offre in preziose risorse per sopravvivere e prosperare. Unisciti agli altri sopravvissuti, metti le tue capacità a servizio del gruppo e insieme riuscirete a trasformare un luogo inospitale nel vostro confortevole rifugio. Vieni con noi e preparati a vivere un'esperienza indimenticabile!",
-                "specialita": [
-                    "Avventura",
-                    "Trappeur"
-                ],
-                "anni": [
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 15,
-                    "max": 25
-                },
-                "nuovo": false
-            },
-            {
-                "image": "nautica.jpg",
-                "titolo": "I MISTERI DI SCILLA E CARIDDI",
-                "descrizione": "Se il mare ti suscita emozioni forti, voglia di avventura e desiderio di metterti in gioco, questo corso è per te. Vivrai esperienze di sfida personale, conoscenza del mare sopra e sotto la superficie, apprenderai a condurre un'imbarcazione, collaborare con gli altri e goderti la bellezza della natura, tra forza, mistero e cieli stellati.",
-                "specialita": [
-                    "Abilità acquatiche",
-                    "Canottaggio",
-                    "Meteo"
-                ],
-                "anni": [
-                    1,
-                    2,
-                    3
-                ],
-                "partecipanti": {
-                    "min": 14,
-                    "max": 18
-                },
-                "nuovo": true
-            },
-            {
-                "image": "pionierismo.jpg",
-                "titolo": "CITTÀ SOPRAELEVATA",
-                "descrizione": "Al corso di Città Sopraelevata conoscerai il leggendario Popolo degli Alberi, e imparerai a vivere come loro. Costruirai la tua vera e propria Città sugli Alberi, una città che ti possa offrire tutto quello che ti offre la terraferma e anche di più. Un luogo di ristoro dove potersi nutrire, un comodo giaciglio dove riposare la notte, e persino una piazza centrale dove riscaldarsi davanti al fuoco e incontrare gli altri abitanti. Cosa aspetti allora? Abbatti la monotonia della vita sulla terraferma, sali anche tu sugli alberi!",
-                "specialita": [
-                    "Pionerismo",
-                    "Hebertismo"
-                ],
-                "anni": [
-                    3,
-                    4
-                ],
-                "partecipanti": {
-                    "min": 12,
-                    "max": 24
-                },
-                "nuovo": false
-            },
-            {
-                "image": "hike.jpg",
-                "titolo": "HIKING INTO THE WILD",
-                "descrizione": "Ti piace stare a tu per tu con la natura? Hai mai pensato di mollare tutto e partire con uno zaino con dentro solo l'essenziale? Questa è l'occasione perfetta per te, parti con noi e insieme scopriremo scorci nascosti dell'Aspromonte passando per paesini abbandonati, ammirando spettacolari cascate e immergendoci nei fiumi scendendo da pareti di roccia. Allaccia gli scarponi e inizia l'avventura!",
-                "specialita": [
-                    "Orientamento",
-                    "Esplorazione",
-                    "Avventura",
-                    "Arrampicata"
-                ],
-                "anni": [
-                    4
-                ],
-                "partecipanti": {
-                    "min": 8,
-                    "max": 18
-                },
-                "nuovo": false
-            }
-        ]
-    }
+  {
+    "nome": "San Fedele",
+    "titolo": "TRAMONTANA - Lombardia / San Fedele (CO)",
+    "image": "sanfedele.jpg",
+    "date": "dal 27 al 31 Agosto 2025",
+    "corsi": [
+      {
+        "image": "campismo.jpg",
+        "titolo": "Campismo in comodità",
+        "descrizione": "Stanco che ad ogni pioggia, la tua tenda intoni \"In fondo al mar\" di \"La Sirenetta\"? Affranta che il tuo CR abbia digitato il 115 alla prima scintilla per accendere il fuoco? Estenuato di essere contattato dalla produzione di \"Cucine da incubo\" ogni volta che prepari qualcosa da mangiare? Esaurita che ogni tua legatura o piccola costruzione sia esposta al MOBA? La soluzione? È proprio qui! La vita al campo ti permetterà di approfondire e sperimentare le tecniche di campismo...in comodità!",
+        "specialita": ["Campismo", "Cucina", "Fuochismo"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 15,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "trapper.jpg",
+        "titolo": "L'arte del trapper: cucina e sopravvivenza",
+        "descrizione": "Preparati a vivere un'avventura da veri Trapper! Passeremo giornate immersi nella natura, imparando a usare tutti gli attrezzi necessari, accendere un bel fuoco in sicurezza in ogni condizione, cucinare con diverse tecniche e montare perfettamente tende e rifugi di fortuna. Cammineremo nei boschi come esploratori, sfruttando il territorio per imparare a sopravvivere. Sarà un'esperienza unica per imparare a cavarsela sempre… divertendoci insieme!",
+        "specialita": ["Campismo", "Avventura", "Fuochismo"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 15,
+          "max": 20
+        },
+        "nuovo": true
+      },
+      {
+        "image": "survival.jpg",
+        "titolo": "Ultimate Survival",
+        "descrizione": "Vorresti scoprire l'esploratore del Selvaggio West che è in te? Vorresti vivere le imprese del leggendario Bear Grylls? Ti aspetta un'avventura unica, che ti permetterà di diventare maestro di orientamento ed esperta di sopravvivenza e bushcraft. Esploreremo i boschi, sopravvivendo cucinando sul fuoco e costruendo rifugi di fortuna, impareremo a trovare la via di casa osservando le stelle, e vivremo un'avventura nella natura, imparando da essa. Prepara coltellino, bussola e scarponi e unisciti a noi!",
+        "specialita": ["Campismo", "Avventura", "Fuochismo", "Orientamento"],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 15,
+          "max": 20
+        },
+        "nuovo": true
+      },
+      {
+        "image": "nautica.png",
+        "titolo": "Salpiamo per l'avventura!",
+        "descrizione": "Hai mai sognato di metterti al timone di una barca, lasciarti spingere dal vento e partire per un'avventura tutta da scoprire? Il nostro corso Tecnicamp è questo... e molto di più! Scoprirai il mondo della vela e della navigazione, imparerai a conoscere il linguaggio dei marinai, a condurre una barca e manovrare le sue vele. Imparerai ad ascoltare il vento e a tracciare nuove rotte, sempre guidato dallo spirito di scoperta, del lavoro di gruppo e dal coraggio. Allora, è il momento di salire a bordo: l'equipaggio ti aspetta! Preparati a mollare gli ormeggi e salpiamo per l'avventura!",
+        "specialita": ["Abilità acquatiche", "Navigazione", "Meteo", "Nuoto"],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 10,
+          "max": 15
+        },
+        "nuovo": true
+      },
+      {
+        "image": "pionierismo.jpg",
+        "titolo": "Pioneer of empire!",
+        "descrizione": "Sei affascinato dalle costruzioni maestose? Vuoi cimentarti nella creazione di opere architettoniche come torri, ponti e portali? Questo corso ispirato a Age of Empires è perfetto per te! Scoprirai i segreti della pionieristica scout, padroneggiando tecniche che hanno reso grandi i costruttori del passato. Incontrerai nuovi amici scout e insieme vivrete giorni indimenticabili all'insegna della creatività e del divertimento. Non perdere tempo, iscriviti subito e preparati a costruire il tuo impero! Ti aspettiamo!",
+        "specialita": ["Pionierismo"],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 15,
+          "max": 20
+        },
+        "nuovo": false
+      },
+      {
+        "image": "er.jpg",
+        "titolo": "ER Scout in prima linea",
+        "descrizione": "Il motto dell'esploratore è chiaro: sii preparato! Per gli esploratori di ER saranno fondamentali sangue freddo, concentrazione e tanta energia, per vivere un'esperienza coinvolgente e senza filtri attraversando varie tecniche scout: dal campismo alla topografia, passando per il fuochismo e l'avventura! Ci sperimenteremo col Primo Soccorso in ogni ambiente in cui uno scout potrebbe trovarsi e dove, con le sue competenze, può fare la differenza. ER-Scout in Prima Linea è adatto per gli intraprendenti, per i fantasiosi, ma soprattutto a tutti quelli affetti da scautite di rara gravità!",
+        "specialita": ["Primo Soccorso", "Vita al campo", "Esplorazione"],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 15,
+          "max": 20
+        },
+        "nuovo": false
+      },
+      {
+        "image": "hike.jpg",
+        "titolo": "Hike... da cima a fondo!",
+        "descrizione": "Avete sempre desiderato esplorare la natura selvaggia attorno a voi, dalle vette che dominano sul lago e oltre, alle profondità della terra?  Saranno 4 giorni di Hike: supereremo le cime delle montagne, in equilibrio sul confine Italia-Svizzera per poi addentrarci nelle viscere della terra alla scoperta di una grotta.  Si sa che, una volta sfiorato il cielo, la via più veloce per scendere è in linea retta, quindi perché non fare del torrentismo!  Tutto molto adrenalinico!...ma sappiamo che i sentieri hanno storie da raccontare e camminare tra i monti è il modo migliore per ascoltare la natura che ci ospiterà.  Insomma, è proprio il caso di dirlo: Hike… da cima a fondo!",
+        "specialita": ["Avventura", "Vita al campo", "Esplorazione"],
+        "anni": [4],
+        "partecipanti": {
+          "min": 10,
+          "max": 15
+        },
+        "nuovo": false
+      }
+    ]
+  },
+  {
+    "nome": "Cervignano",
+    "titolo": "BORA - Friuli-Venezia Giulia / Cervignano (UD)",
+    "image": "cervignano.jpg",
+    "date": "dal 27 al 31 Agosto 2025",
+    "corsi": [
+      {
+        "image": "internazionale.jpg",
+        "titolo": "Amicizia internazionale - TEK! Che amicizia senza confini!",
+        "descrizione": "Il Friuli Venezia Giulia è una regione di confine, da sempre un crocevia di popoli in movimento. È qui che vi coinvolgeremo in un viaggio nel tempo e nello spazio per capire cos'è oggi l'Amicizia Internazionale. Che opportunità, sogni, aspirazioni e possibilità hanno Scout come voi che vivono in altre parti del mondo? Che ruolo ha la loro società e la comunità internazionale nel supportare questi sogni?  Percorreremo un tratto della rotta balcanica, via percorsa da migliaia di persone che si lasciano alle spalle posti ostili con la speranza di potersi realizzare altrove… siete pronti a vivere con noi tutto questo? Vi aspettiamo!",
+        "specialita": ["Amicizia internazionale"],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 15,
+          "max": 20
+        },
+        "nuovo": false
+      },
+      {
+        "image": "pionierismo.jpg",
+        "titolo": "Pionierismo - ventimila leghe sotto i nodi: un'avventura pionieristica",
+        "descrizione": "Esplora il potenziale di una semplice corda! Scopri tipologie, caratteristiche e usi. Addentrati nel mondo dei nodi e impara a realizzarli in sicurezza. Libera la creatività trasformando cordini in oggetti decorativi, metti alla prova le tue abilità con le legature, vedrai materializzarsi costruzioni che sfideranno la tua immaginazione. Imparerai a utilizzare corde e strumenti in modo responsabile, rispettando l'ambiente e lavorando. Preparati a un'avventura indimenticabile, dove la corda diventa strumento di esplorazione, creazione e superamento dei limiti.",
+        "specialita": ["Pionierismo"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 15,
+          "max": 25
+        },
+        "nuovo": false
+      }
+    ]
+  },
+  {
+    "nome": "Approdo Punta Nord",
+    "titolo": "LEVANTE - Emilia Romagna / Approdo Punta Nord (RN)",
+    "image": "approdo.jpg",
+    "date": "dal 28 Agosto al 1 Settembre 2025",
+    "corsi": [
+      {
+        "image": "knot.jpg",
+        "titolo": "Not Only Knot",
+        "descrizione": "Sei ai primi anni di reparto e la pionieristica ti incuriosisce?  Ti piace costruire, legare, sollevare… ma ti sembra che sia tutto solo tavoli, treppiedi e corde?  Beh, preparati a cambiare idea: questo è solo l'inizio!  Dai spazio alla tua creatività, immagina, progetta e costruisci come mai prima.  Mille modi di fare e mille idee… più una!  Assieme costruiremo  un vero parco giochi scout fatto con le nostre mani, e impareremo come rendere unico l'angolo di pattuglia usando le tecniche più creative e divertenti.  Con delle buone basi, l'unico limite è la tua fantasia.  Cosa stai aspettando?  Unisciti a noi e scopri quanto può essere entusiasmante il mondo della pionieristica!  Cos'è il pionierismo? Not Only Knot!",
+        "specialita": ["Pionierismo", "Artigianato", "Campismo"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 15,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "spettacolo.jpg",
+        "titolo": "Accendi lo spettacolo",
+        "descrizione": "Hai voglia di accendere la scintilla giusta?  Non parliamo solo di fuochi e legna… ma di fantasia, creatività e quella magia che nasce quando ci si diverte davvero insieme!  Se ti piace stare all'aperto, inventare, ridere, imparare cose nuove e trasformare una semplice serata in qualcosa di speciale, allora questo è il posto giusto per te.  Impareremo tecniche avanzate per accendere il fuoco, giocheremo con la voce, le idee e l'energia del gruppo… e scopriremo come far brillare l'atmosfera con un tocco tutto nostro.  Porta con te solo la voglia di metterti in gioco. Il resto? Lo accendiamo insieme.",
+        "specialita": ["Fuochismo", "Animazione"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 15,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "mari.jpg",
+        "titolo": "L'Eco dei Mari",
+        "descrizione": "Il mare diventerà la nostra casa, il vento e le stelle la nostra guida, l'avventura la nostra fedele compagna. Scopriremo i segreti che si nascondono tra le onde e la sabbia, remeremo insieme ed impareremo a orientarci in mare. Costruiremo zattere di salvataggio e ci tufferemo in attività e sport acquatici.  Ci lasceremo bagnare dal sale, ascolteremo il canto del mare imparando a rispettarlo e a proteggerlo.  Sarà un viaggio tra sole e tempeste, risate e silenzi, con mani che si tendono e occhi che guardano lontano.  Tuffati con noi, il mare ci chiama.",
+        "specialita": [
+          "Abilità acquatiche",
+          "Canottaggio",
+          "Impatto ambientale",
+          "Nuoto"
+        ],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 15,
+          "max": 24
+        },
+        "nuovo": false
+      },
+      {
+        "image": "cucina.jpg",
+        "titolo": "Cucina da sogno",
+        "descrizione": "Ti piace spadellare, sperimentare e dare un tocco tutto tuo ai piatti che prepari?  Hai voglia di scoprire nuove ricette da aggiungere al tuo repertorio segreto e da condividere con il tuo Reparto?  Ti incuriosiscono tecniche di cucina un po' diverse dal solito e magari vuoi capire come quello che mangiamo può fare la differenza per il nostro pianeta?  Se hai annuito anche solo una volta… beh, questo corso è fatto apposta per te!  Prepara mestoli, curiosità e voglia di divertirti... si cucina sul serio!",
+        "specialita": ["Cucina", "Fuochismo", "Impatto ambientale", "Trappeur"],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 15,
+          "max": 25
+        },
+        "nuovo": true
+      },
+      {
+        "image": "bosco.jpg",
+        "titolo": "La Via del Bosco - Sentieri Selvaggi per anime libere",
+        "descrizione": "Hai voglia di vivere un' autentica, epica avventura ?! Allora cosa aspetti??  Cammina con noi! Percorreremo sentieri selvaggi portando nello zaino solo l'indispensabile... Con noi imparerai come orientarti, dove accamparti, come costruire un riparo con quello che la natura ti offre e come trovare cibo, acqua ed esche per accendere i fuoco. Potrai finalmente ritrovare il tuo istinto primordiale e imparare a leggere i segni e i rumori della natura e a vivere veramente in armonia con essa e con i suoi abitanti... Terra, Fuoco e Acqua ci accompagneranno in questa avventura e saranno i nostri preziosi alleati... In questi giorni impareremo che, in realtà, non esistono problemi... ma solo soluzioni! Allora?... Sei pronto a partire?! Ci accompagnerà anche Marco, istruttore Nazionale di Sopravvivenza CSEN della Wolf's Spirit Survival School. Sei curioso? Da un'occhiata al sito: https://www.wolfspiritsurvival.com/",
+        "specialita": [
+          "Fuochismo",
+          "Ambiente",
+          "Avventura",
+          "Esplorazione",
+          "Orientamento",
+          "Pionierismo",
+          "Primo Soccorso",
+          "Trappeur"
+        ],
+        "anni": [4],
+        "partecipanti": {
+          "min": 15,
+          "max": 22
+        },
+        "nuovo": false
+      },
+      {
+        "image": "settemari.jpg",
+        "titolo": "Esplorando i Sette mari con Sindbad",
+        "descrizione": "Vuoi vivere il mare da protagonista? Allora questa è l'occasione che aspettavi per imparare davvero a navigare, sentire la barca sotto i piedi, fidarsi del timone, cercare la rotta con gli occhi e con il cuore. Unisciti a chi ha scelto di scoprire il mondo navigando. Ogni pinneggiata porta più lontano, ogni vela tesa regala un'emozione nuova. Non è solo navigare… è respirare insieme al mare. Vivi l'estate in modo unico… e chissà, magari anche il tuo futuro! Iscriviti ora: il mare ti aspetta.",
+        "specialita": [
+          "Ambiente acquatico",
+          "Abilità acquatiche",
+          "Skipper",
+          "Meteo",
+          "Nuoto"
+        ],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 20,
+          "max": 24
+        },
+        "nuovo": false
+      },
+      {
+        "image": "change.jpg",
+        "titolo": "Be the change",
+        "descrizione": "È tempo di agire. È tempo di cambiare. Se senti dentro una voce che spinge, un'idea che brucia, un sogno che non ci sta in tasca… è ora di metterti in gioco! Partecipa a un'esperienza che lascia il segno. Laboratori fuori dagli schemi, sfide da affrontare insieme, missioni nel territorio, incontri con chi il cambiamento lo vive ogni giorno. Scopriremo cosa vuol dire davvero difendere i diritti, vivere la cittadinanza attiva e costruire realtà nuove, coraggiose, vere. Se hai il coraggio di crederci, anche quando sembra impossibile… allora questo è il tuo corso. Perché il cambiamento comincia oggi, comincia qui, comincia da te!",
+        "specialita": ["Sfide globali", "Impatto nella comunità"],
+        "anni": [4],
+        "partecipanti": {
+          "min": 10,
+          "max": 25
+        },
+        "nuovo": true
+      }
+    ]
+  },
+  {
+    "nome": "Tuscania",
+    "titolo": "PONENTE - Lazio / Tuscania (VT)",
+    "image": "tuscania.jpg",
+    "date": "dal 28 Agosto al 1 Settembre 2025",
+    "corsi": [
+      {
+        "image": "fuochismo.jpg",
+        "titolo": "Fuochismo - Accendi l'avventura",
+        "descrizione": "Hai finito l'hike ma i fiammiferi sono rimasti a valle? Intorno a te solo legna bagnata e zero idee su come cucinare? La tenda si è smontata nel cuore della notte e non riesci a vedere nulla? Niente panico: ogni imprevisto può diventare una grande opportunità! Preparati a vivere un'esperienza da veri esploratori. Al Tecnicamp 2025 accenderemo l'avventura insieme: impareremo a fare fuochi, cucinare, costruire e tanto altro! Zaino in spalla, acciarino in tasca… si parte!",
+        "specialita": [
+          "Vita al campo",
+          "Fuochista",
+          "Artigianato",
+          "Animazione"
+        ],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 16,
+          "max": 28
+        },
+        "nuovo": false
+      },
+      {
+        "image": "olimpia.jpg",
+        "titolo": "Olimpia - Scout games - La via dell'Olimpo",
+        "descrizione": "Pronti a diventare eroi dell'antica Grecia? In questi cinque giorni di titaniche sfide arriverai dritto nel cuore delle Olimpiadi greche: sfide epiche, giochi di squadra mozzafiato e prove di astuzia da veri campioni! Indosserai medaglie e combatterai per la gloria… e per un sacco di divertimento! Che tu sia un veloce messaggero spartano o un astuto stratega ateniese, troverai il tuo posto nella squadra. Tra gare, enigmi e missioni leggendarie, ogni giornata sarà un'avventura diversa. Vieni a scrivere la tua leggenda olimpica con noi. Il fuoco sacro ti aspetta: parteciperai?",
+        "specialita": ["Olimpia", "Giochi di squadra", "Benessere"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 12,
+          "max": 28
+        },
+        "nuovo": true
+      },
+      {
+        "image": "survival2.jpg",
+        "titolo": "Surviving Extreme",
+        "descrizione": "Preparati a sfidare te stesso, ad affrontare l'ignoto e a riscoprire la forza del gruppo. Surviving Extreme Scout non è un semplice campo scout: è un'esperienza totale immersa nella natura più selvaggia, dove la sopravvivenza incontra l'adrenalina. Tra prove fisiche estreme, tecniche avanzate di bushcraft, orientamento, costruzioni, fuochi e notti sotto le stelle, ogni giornata è una sfida da superare con coraggio, intelligenza e spirito di squadra. Non ci saranno comodità, solo ciò che la natura offre… e ciò che sei pronto a diventare. Sei pronto a scoprire chi sei davvero, quando non hai più nulla… tranne te stesso? Pensi di essere all'altezza? Vieni a dimostrarlo!!",
+        "specialita": [
+          "Campismo",
+          "Fuochismo",
+          "Vita al Campo",
+          "Pionerismo",
+          "Ambiente"
+        ],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 12,
+          "max": 28
+        },
+        "nuovo": false
+      },
+      {
+        "image": "survival.jpg",
+        "titolo": "Surviving First Steps",
+        "descrizione": "Diceva B.P.: \"Non esiste buono o cattivo tempo, ma buono o cattivo equipaggiamento\". E quale miglior equipaggiamento delle nostre conoscenze e abilità? Sapresti come intervenire di fronte alla situazione più imprevista? Il coraggio non è nulla senza una buona dose di TECNICA! Fuoco, acqua, primo soccorso, segnalazione, topografia, chiamate di emergenza... La prossima volta, sarà Bear Grylls a venire a chiedere aiuto a te! Vieni a scoprire le tecniche che faranno di TE... la persona giusta, al momento giusto!",
+        "specialita": [
+          "Primo Soccorso",
+          "Trappeur",
+          "Comunicazione",
+          "Avventura",
+          "Esplorazione",
+          "Orientamento"
+        ],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 12,
+          "max": 24
+        },
+        "nuovo": true
+      },
+      {
+        "image": "pionierismo.jpg",
+        "titolo": "Pionierismo - Vita sugli alberi",
+        "descrizione": "La vita in tenda lascia sempre un sacco di ricordi, lo sappiamo benissimo. Ma cosa succede se le nostre canadesi non le picchettassimo a terra ma a qualche metro da terra? Follia, penserete; ma per noi ormai è diventata una costante e non ne possiamo più fare a meno. Se vorrai abbracciare con noi la vita sugli alberi e costruire torrette, scale e molto altro, sai già che corso scegliere! Nuove tecniche e un sacco di calli ti aspettano!",
+        "specialita": ["Pionerismo", "Hebertismo", "Vita al campo"],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 16,
+          "max": 28
+        },
+        "nuovo": false
+      },
+      {
+        "image": "hike.jpg",
+        "titolo": "Orme Ribelli: Tuscia Wild",
+        "descrizione": "Adrenalina, natura selvaggia e spirito di squadra: pronto per la sfida? Il TEK hike della base Tuscania è un concentrato di avventura che aspetta solo te! Esplora sentieri panoramici, impara tecniche di sopravvivenza e orientamento. Scopri la bellezza mozzafiato della Tuscia, sfida te stesso e supera i tuoi limiti. Vivrai un'esperienza indimenticabile, con sudore, fatica e un'immersione totale nella natura. L'avventura inizia qui! Unisciti a noi e scopri fiumi, mari, boschi senza confini, i chiari orizzonti e le verdi colline.",
+        "specialita": [
+          "Esplorazione",
+          "Orientamento",
+          "Osservazione",
+          "Impatto Ambientale",
+          "Benessere"
+        ],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 10,
+          "max": 22
+        },
+        "nuovo": false
+      },
+      {
+        "image": "nautica.jpg",
+        "titolo": "Nautica e Carpenteria - La via dei Vichinghi",
+        "descrizione": "C'è un richiamo che attraversa i secoli. È il canto del legno che scricchiola sotto le mani forti. È il suono dei remi che fendono acque sconosciute. È la voce dei Vichinghi, che ancora oggi sfida chi ha il coraggio di costruire il proprio destino. In questo corso diventerai parte di una ciurma leggendaria: costruirai con le tue mani una canoa degna dei grandi guerrieri del Nord. Imparerai a navigare come loro, a leggere il vento, l'acqua, le stelle. Non sarai un semplice esploratore. Sarai un Vichingo. E quando il tuo scafo toccherà l'acqua… il mondo saprà che i figli del Nord sono tornati.",
+        "specialita": [
+          "Carpenteria navale",
+          "Ambiente acquatico",
+          "Vogatore",
+          "Artigianato"
+        ],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 18,
+          "max": 24
+        },
+        "nuovo": false
+      },
+      {
+        "image": "animazione.jpg",
+        "titolo": "Personaggi Fantastici e Dove Trovarli",
+        "descrizione": "Dentro la tua mente ci sono mille e più avventure? Non deve restare tutto dentro la tua testa, basta solo un po' di fantasia! Vedremo come nascono personaggi che divertano tutti quanti, compresi noi, e vivremo insieme a loro varie avventure. L'animazione ai fuochi non sarà più la stessa, impareremo a rendere fantastici anche questi momenti! Scopriremo come creare costumi di scena con poco e come integrare la tecnologia nell'animazione. Non serve saper recitare, metti tanta creatività nello zaino e preparati a vivere questo magico viaggio con noi!",
+        "specialita": [
+          "Animazione",
+          "Videomaking",
+          "Arti grafiche",
+          "Artigianato"
+        ],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 8,
+          "max": 24
+        },
+        "nuovo": true
+      },
+      {
+        "image": "trapper.jpg",
+        "titolo": "Trapper Express",
+        "descrizione": "Vuoi sopravvivere nella natura? Ma non solo sopravvivere… goderti il campo come un vero pascià? Mettiti in gioco in questo super corso Tecnicamp, e \"con corda di canapa mi sono fatto la radio e la TV\" non rimarrà soltanto un verso di una canzone! In questo corso scoprirai tutti i segreti del pionierismo, imparerai a realizzare delle costruzioni da campo da paura, diventerai un drago del fuochismo e della cucina da campo, e ti trasformerai in un vero trapper (mica come Tony Effe). Sei pronto ad assaporare l'avventura? Allora non perderti: ci vediamo alla base!",
+        "specialita": [
+          "Pionierismo",
+          "Campismo",
+          "Fuochismo",
+          "Cucina da campo",
+          "Trappeur"
+        ],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 18,
+          "max": 24
+        },
+        "nuovo": true
+      }
+    ]
+  },
+  {
+    "nome": "Spianessa",
+    "titolo": "MAESTRALE - Toscana / Spianessa (PT)",
+    "image": "spianessa.jpg",
+    "date": "dal 27 al 31 Agosto 2025",
+    "corsi": [
+      {
+        "image": "hunger.jpg",
+        "titolo": "Hunger Scout",
+        "descrizione": "È arrivato il momento di metterti alla prova e scoprire di cosa sei davvero capace. Se hai voglia di avventura, sete di conoscenza e il desiderio di imparare a cavartela in ogni situazione, questo è il corso che fa per te. Imparerai a leggere l'ambiente che ti circonda, a sfruttare le risorse della natura e ad affrontare le emergenze con ingegno e spirito pratico, utilizzando solo l'essenziale. Lascia che il tuo istinto prenda il sopravvento e preparati a vivere un'esperienza che ti cambierà per sempre.",
+        "specialita": ["Esplorazione", "Orientamento", "Avventura"],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 17,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "fuochismo.jpg",
+        "titolo": "Taste of Adventure",
+        "descrizione": "Da quando è finito il campo senti la mancanza dell'odore del fuoco? Non vedi l'ora di sorprendere la tua pattuglia o il tuo equipaggio con nuove ricette straordinarie alla prossima gara di cucina? Questo è il corso che fa per te! Preparati a mettere le mani in pasta per creare ricette che scalderanno lo stomaco e il cuore. Afferra la gavetta vieni a scoprire il sapore dell'avventura!",
+        "specialita": ["Fuochismo", "Vita al campo"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 14,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "power.jpg",
+        "titolo": "Scout Power Games",
+        "descrizione": "Scopri il segreto nascosto nel cuore pulsante della città delle leggende. Un'esperienza fuori dal comune ti aspetta: un viaggio tra competizioni leggendarie, corse mozzafiato, percorsi Hebert immersivi e sfide titaniche che metteranno alla prova ogni fibra del tuo coraggio. Sarai pronto a vivere l'adrenalina, il sudore e la passione di un campo d'addestramento degno degli dei? Unisciti a Percy Jackson e a una squadra di valorosi semidei nel leggendario Campo Mezzosangue: non un semplice corso, ma un'avventura che ti cambierà.",
+        "specialita": ["Gioco di squadra", "Hebertismo"],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 14,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "overcamp.jpg",
+        "titolo": "Overcamp",
+        "descrizione": "Scopriremo insieme come preparare un'avventura fantastica fra boschi di faggi, creste panoramiche, laghi lucenti come specchi e tramonti mozzafiato. Sei pronto a imparare ad usare la tecnologia per esplorare un territorio sconosciuto? Vuoi scoprire cosa hanno in comune previsioni meteo, mappe, tracce di sentieri… Ma soprattutto, sei pronto a mettere tutte le tue sicurezze in uno zaino essenziale e superare i tuoi limiti in un lungo hike itinerante sulle montagne dell'Appennino Tosco-Emiliano? Unisciti a noi e imparerai che l'avventura inizia molto prima di partire e finisce molto dopo essere tornati a casa!",
+        "specialita": ["Avventura", "Orientamento"],
+        "anni": [4],
+        "partecipanti": {
+          "min": 14,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "oscar.jpg",
+        "titolo": "Fuochi da Oscar",
+        "descrizione": "Ti piace recitare, costruire, dipingere o far ridere gli altri? Allora questo corso è fatto per te! Insieme impareremo a trasformare ogni scenetta in uno spettacolo indimenticabile! Ci dedicheremo alla creazione di maschere, vestiti di scena, effetti speciali, oggetti decorativi e tutto ciò che può rendere unica l'animazione di un fuoco. Imparerai tante nuove tecniche e modalità in cui raccontare una storia e scoprirai come il pionierismo e il fuochismo, insieme a tanta fantasia possano essere la chiave per un momento magico e coinvolgente. Pronti a salire sul palco?",
+        "specialita": ["Animazione", "Artista", "Amante della musica"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 14,
+          "max": 25
+        },
+        "nuovo": true
+      },
+      {
+        "image": "esplorazione.jpg",
+        "titolo": "NATURE EXPLORERS",
+        "descrizione": "Sei pronto a vestire i panni di un vero \"NATURE EXPLORER\" e a decifrare i segreti che la natura custodisce gelosamente? In questo corso itinerante, ti immergerai in un'esperienza pratica e coinvolgente, imparando a riconoscere le piante che ci circondano e a interpretare il linguaggio silenzioso del suolo e dei suoi abitanti. Acquisirai le competenze per muoverti nella natura con consapevolezza e rispetto. Ma non finisce qui: scoprirai anche come le tue azioni possono fare la differenza, lasciando un'impronta positiva sul nostro pianeta. Unisciti a noi per un'avventura indimenticabile all'aria aperta, ricca di scoperte pratiche e di un profondo legame con l'ambiente che ci ospita. Zaini in spalla, ti aspettiamo!",
+        "specialita": ["Avventura", "Esplorazione", "Orientamento"],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 14,
+          "max": 25
+        },
+        "nuovo": true
+      }
+    ]
+  },
+  {
+    "nome": "Forge",
+    "titolo": "LIBECCIO - Calabria / Forge (RC)",
+    "image": "forge.jpg",
+    "date": "dal 28 Agosto al 1 Settembre 2025",
+    "corsi": [
+      {
+        "image": "animazione.jpg",
+        "titolo": "FUOCO ALLA FANTASIA",
+        "descrizione": "Prestigiosa compagnia teatrale cerca fuochisti, musicisti, macchinisti, scenografi, costumisti, attori, autori… per ingaggio estivo. Non conta l'esperienza ma la voglia di mettersi in gioco: partiremo da una scintilla per accendere un grande fuoco. Al termine del corso potrai essere parte di un grande evento e tornare a casa dal tuo reparto con una marcia in più.",
+        "specialita": ["Fuochismo", "Animazione"],
+        "anni": [1, 2],
+        "partecipanti": {
+          "min": 10,
+          "max": 24
+        },
+        "nuovo": false
+      },
+      {
+        "image": "survival.jpg",
+        "titolo": "SURVIVE!",
+        "descrizione": "Hai mai sognato di vivere un'avventura nella natura selvaggia, lontano dalle comodità del mondo moderno? Questa è la tua occasione! Lascia la civiltà alle spalle e unisciti a noi! Imparerai a fare della natura la tua casa e a trasformare quello che l'ambiente ti offre in preziose risorse per sopravvivere e prosperare. Unisciti agli altri sopravvissuti, metti le tue capacità a servizio del gruppo e insieme riuscirete a trasformare un luogo inospitale nel vostro confortevole rifugio. Vieni con noi e preparati a vivere un'esperienza indimenticabile!",
+        "specialita": ["Avventura", "Trappeur"],
+        "anni": [2, 3],
+        "partecipanti": {
+          "min": 15,
+          "max": 25
+        },
+        "nuovo": false
+      },
+      {
+        "image": "nautica.jpg",
+        "titolo": "I MISTERI DI SCILLA E CARIDDI",
+        "descrizione": "Se il mare ti suscita emozioni forti, voglia di avventura e desiderio di metterti in gioco, questo corso è per te. Vivrai esperienze di sfida personale, conoscenza del mare sopra e sotto la superficie, apprenderai a condurre un'imbarcazione, collaborare con gli altri e goderti la bellezza della natura, tra forza, mistero e cieli stellati.",
+        "specialita": ["Abilità acquatiche", "Canottaggio", "Meteo"],
+        "anni": [1, 2, 3],
+        "partecipanti": {
+          "min": 14,
+          "max": 18
+        },
+        "nuovo": true
+      },
+      {
+        "image": "pionierismo.jpg",
+        "titolo": "CITTÀ SOPRAELEVATA",
+        "descrizione": "Al corso di Città Sopraelevata conoscerai il leggendario Popolo degli Alberi, e imparerai a vivere come loro. Costruirai la tua vera e propria Città sugli Alberi, una città che ti possa offrire tutto quello che ti offre la terraferma e anche di più. Un luogo di ristoro dove potersi nutrire, un comodo giaciglio dove riposare la notte, e persino una piazza centrale dove riscaldarsi davanti al fuoco e incontrare gli altri abitanti. Cosa aspetti allora? Abbatti la monotonia della vita sulla terraferma, sali anche tu sugli alberi!",
+        "specialita": ["Pionerismo", "Hebertismo"],
+        "anni": [3, 4],
+        "partecipanti": {
+          "min": 12,
+          "max": 24
+        },
+        "nuovo": false
+      },
+      {
+        "image": "hike.jpg",
+        "titolo": "HIKING INTO THE WILD",
+        "descrizione": "Ti piace stare a tu per tu con la natura? Hai mai pensato di mollare tutto e partire con uno zaino con dentro solo l'essenziale? Questa è l'occasione perfetta per te, parti con noi e insieme scopriremo scorci nascosti dell'Aspromonte passando per paesini abbandonati, ammirando spettacolari cascate e immergendoci nei fiumi scendendo da pareti di roccia. Allaccia gli scarponi e inizia l'avventura!",
+        "specialita": [
+          "Orientamento",
+          "Esplorazione",
+          "Avventura",
+          "Arrampicata"
+        ],
+        "anni": [4],
+        "partecipanti": {
+          "min": 8,
+          "max": 18
+        },
+        "nuovo": false
+      }
+    ]
+  }
 ]

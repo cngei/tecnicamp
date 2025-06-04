@@ -20,6 +20,11 @@ import {
   useMediaQuery,
   List,
   ListItem,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
   Button
 } from '@mui/material'
 import { useEffect, useState } from 'react'
@@ -43,6 +48,7 @@ interface Base {
   titolo: string
   image: string
   date: string
+  logistica: string
   corsi: Corso[]
 }
 
@@ -51,6 +57,7 @@ function App() {
   const [selectedAnno, setSelectedAnno] = useState<number[]>([1, 4])
   const [searchQuery, setSearchQuery] = useState('')
   const [filteredData, setFilteredData] = useState<Base[]>(data)
+  const [confirmNeedHelp, setConfirmNeedhelp] = useState<boolean>(false)
   const isSmall = useMediaQuery('(max-width: 600px)')
 
   useEffect(() => {
@@ -179,16 +186,21 @@ function App() {
             }}
           >
             <Button
+              variant="outlined"
+              href="/assets/autodichiarazione_tecnicamp_2025.pdf"
+              target="_blank"
+            >
+              Scarica Autodichiarazione
+            </Button>
+            <Button
               variant="contained"
               color="primary"
               href="https://app.cngei.it"
+              target="_blank"
             >
               Accedi al portale
             </Button>
-            <Button
-              variant="outlined"
-              href="https://help.cngei.it/servicedesk/customer/portal/4"
-            >
+            <Button variant="outlined" onClick={() => setConfirmNeedhelp(true)}>
               Richieste di assistenza
             </Button>
           </Box>
@@ -223,20 +235,13 @@ function App() {
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMore />}>
               <Typography component="span">
-                Dove posso scaricare l'autodichiarazione?
+                Cosa devo fare con l'autodichiarazione?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              Se non sai dove scaricare l'autodichiarazione è all'ultima pagina
-              della circolare! Altrimenti puoi cliccare{' '}
-              <a
-                href="/assets/autodichiarazione_tecnicamp_2025.pdf"
-                target="_blank"
-                style={{ fontWeight: 'bold' }}
-              >
-                qui
-              </a>
-              .
+              L'autodichiarazione, che puoi scaricare tramite il pulsante qui
+              sopra, dovrà essere compilata e caricata sul portale durante
+              l'iscrizione al tecnicamp, senza non è possibile iscriversi.
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -343,6 +348,18 @@ function App() {
                 {base.date}
               </Typography>
             </Box>
+            <Box sx={{ width: 'max(700px, 80%)' }}>
+              <Accordion>
+                <AccordionSummary expandIcon={<ExpandMore />}>
+                  <Typography component="span">
+                    Informazioni logistiche di ritrovo
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <div dangerouslySetInnerHTML={{ __html: base.logistica }} />
+                </AccordionDetails>
+              </Accordion>
+            </Box>
             <Box
               sx={{
                 maxWidth: 'max(700px, 80%)',
@@ -411,6 +428,32 @@ function App() {
           </Box>
         ))}
       </Box>
+
+      <Dialog open={confirmNeedHelp} onClose={() => setConfirmNeedhelp(false)}>
+        <DialogTitle>Richiesta Assistenza</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Hai realmente necessità di assistenza? Hai letto prima le FAQ che
+            trovi qui sotto e provato a sentire il tuo Capo Reparto?
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+          <Button
+            onClick={() => setConfirmNeedhelp(false)}
+            variant="contained"
+            autoFocus
+          >
+            Non ne ho bisogno
+          </Button>
+          <Button
+            onClick={() => setConfirmNeedhelp(false)}
+            href="https://help.cngei.it/servicedesk/customer/portal/4"
+            target="_blank"
+          >
+            Ne ho VERAMENTE bisogno
+          </Button>
+        </DialogActions>
+      </Dialog>
     </div>
   )
 }

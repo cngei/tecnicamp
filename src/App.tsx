@@ -179,7 +179,7 @@ function App() {
           <Box
             sx={{
               display: 'flex',
-              flexDirection: 'row',
+              flexDirection: isSmall ? 'column' : 'row',
               gap: 2,
               my: 2,
               justifyContent: 'center'
@@ -348,7 +348,13 @@ function App() {
                 {base.date}
               </Typography>
             </Box>
-            <Box sx={{ width: 'max(700px, 80%)' }}>
+            <Box
+              sx={{
+                width: isSmall ? '90%' : '100%',
+                maxWidth: 'max(700px, 80%)',
+                mx: 2
+              }}
+            >
               <Accordion>
                 <AccordionSummary expandIcon={<ExpandMore />}>
                   <Typography component="span">
@@ -437,20 +443,29 @@ function App() {
             trovi qui sotto e provato a sentire il tuo Capo Reparto?
           </DialogContentText>
         </DialogContent>
-        <DialogActions>
+        <DialogActions
+          sx={{
+            display: 'flex',
+            flexDirection: isSmall ? 'column' : 'row',
+            gap: 2
+          }}
+        >
           <Button
             onClick={() => setConfirmNeedhelp(false)}
             variant="contained"
+            sx={{ width: isSmall ? '100%' : 'inherit' }}
             autoFocus
           >
             Non ne ho bisogno
           </Button>
           <Button
+            variant="outlined"
             onClick={() => setConfirmNeedhelp(false)}
             href="https://help.cngei.it/servicedesk/customer/portal/4"
             target="_blank"
+            sx={{ width: isSmall ? '100%' : 'inherit', ml: '0 !important' }}
           >
-            Ne ho VERAMENTE bisogno
+            Ne ho veramente bisogno
           </Button>
         </DialogActions>
       </Dialog>

@@ -248,7 +248,7 @@
       {
         "image": "fuochismo.jpg",
         "titolo": "Fuochismo - Accendi l'avventura",
-        "descrizione": "Hai finito l'hike ma i fiammiferi sono rimasti a valle? Intorno a te solo legna bagnata e zero idee su come cucinare? La tenda si è smontata nel cuore della notte e non riesci a vedere nulla? Niente panico: ogni imprevisto può diventare una grande opportunità! Preparati a vivere un'esperienza da veri esploratori. Al Tecnicamp 2025 accenderemo l'avventura insieme: impareremo a fare fuochi, cucinare, costruire e tanto altro! Zaino in spalla, acciarino in tasca… si parte!",
+        "descrizione": "Accendi la tua Avventura! Impara a domare la fiamma! Ehi Scout! Stanco del solito modo di accendere un fuoco? Hai dimenticato i fiammiferi o la legna è fradicia? Nessun problema! Ti sveleremo i segreti del fuochismo estremo! Non solo impareremo a dominare il fuoco in ogni condizione, ma scoprirai anche tecniche incredibili e non convenzionali per accedere e domare la fiamma anche quando sembra impossibile! Preparati a stupire tutti con le tue nuove abilità, cucinare come un vero avventuriero e affrontare ogni imprevisto. Zaino in spalla, acciarino... o chissà cos'altro... in tasca! L'avventura chiama, noi l'accendiamo!",
         "specialita": [
           "Vita al campo",
           "Fuochista",
@@ -265,7 +265,7 @@
       {
         "image": "olimpia.jpg",
         "titolo": "Olimpia - Scout games - La via dell'Olimpo",
-        "descrizione": "Pronti a diventare eroi dell'antica Grecia? In questi cinque giorni di titaniche sfide arriverai dritto nel cuore delle Olimpiadi greche: sfide epiche, giochi di squadra mozzafiato e prove di astuzia da veri campioni! Indosserai medaglie e combatterai per la gloria… e per un sacco di divertimento! Che tu sia un veloce messaggero spartano o un astuto stratega ateniese, troverai il tuo posto nella squadra. Tra gare, enigmi e missioni leggendarie, ogni giornata sarà un'avventura diversa. Vieni a scrivere la tua leggenda olimpica con noi. Il fuoco sacro ti aspetta: parteciperai?",
+        "descrizione": "Hai mai sognato di superare i tuoi limiti e di vivere un' esperienza indimenticabile? Per cinque giorni ti immergerai in un'avventura unica, ispirata alle leggendarie Olimpiadi greche. Dimentica la solita routine: qui ti aspettano sfide epiche dove metterai alla prova la tua forza, la tua strategia e la tua astuzia. Non è una gara per dimostrare chi è il più forte, ma un'occasione per tirare fuori il meglio di te, per affinare le tue abilità e per vivere a fondo lo spirito di squadra. Che tu senta la velocità di un messaggero Spartano che corre per la sua pattuglia o l'ingegno di un astuto stratega Ateniese che guida il gruppo, ogni tua scelta e ogni tuo contributo saranno fondamentali. Tra gare mozzafiato, enigmi complessi e missioni leggendarie, ogni singola giornata sarà una pagina epica da scrivere insieme, un passo in più nel tuo percorso di crescita. Il fuoco sacro della sfida e della fraternità arde. Sei pronto a rispondere al suo richiamo e a lasciare il segno?",
         "specialita": ["Olimpia", "Giochi di squadra", "Benessere"],
         "anni": [1, 2],
         "partecipanti": {
@@ -314,7 +314,7 @@
       {
         "image": "pionierismo.jpg",
         "titolo": "Pionierismo - Vita sugli alberi",
-        "descrizione": "La vita in tenda lascia sempre un sacco di ricordi, lo sappiamo benissimo. Ma cosa succede se le nostre canadesi non le picchettassimo a terra ma a qualche metro da terra? Follia, penserete; ma per noi ormai è diventata una costante e non ne possiamo più fare a meno. Se vorrai abbracciare con noi la vita sugli alberi e costruire torrette, scale e molto altro, sai già che corso scegliere! Nuove tecniche e un sacco di calli ti aspettano!",
+        "descrizione": "La vita al suolo ti sta stretta? Non ce la fai più a stare con i piedi per terra? Se la risposta è si allora devi essere dei nostri! Ci chiamano con molti nomi, uno più strano dell’altro, ma a noi non piace definirci, ci piace mettere le mani in pasta e agire. Se vorrai metterti in gioco e abbracciare la vita sugli alberi da noi sarai sempre in benvenuto. Imparerai a salire sempre più in alto e a fare a meno del suolo con tantissime tecniche diverse e nuove.",
         "specialita": ["Pionerismo", "Hebertismo", "Vita al campo"],
         "anni": [3, 4],
         "partecipanti": {
@@ -361,7 +361,7 @@
       {
         "image": "animazione.jpg",
         "titolo": "Personaggi Fantastici e Dove Trovarli",
-        "descrizione": "Dentro la tua mente ci sono mille e più avventure? Non deve restare tutto dentro la tua testa, basta solo un po' di fantasia! Vedremo come nascono personaggi che divertano tutti quanti, compresi noi, e vivremo insieme a loro varie avventure. L'animazione ai fuochi non sarà più la stessa, impareremo a rendere fantastici anche questi momenti! Scopriremo come creare costumi di scena con poco e come integrare la tecnologia nell'animazione. Non serve saper recitare, metti tanta creatività nello zaino e preparati a vivere questo magico viaggio con noi!",
+        "descrizione": "Accendi la tua Magia: incredibili avventure ti aspettano! Senti la testa piena di idee pazzesche, storie che prendono vita e personaggi che non vedi l'ora di raccontare? Hai mai immaginato di trasformare un semplice fuoco da campo in uno spettacolo indimenticabile, dove la magia nasce dalle fiamme e la tua fantasia diventa realtà? Nel nostro corso di animazione, ti guideremo in un viaggio incredibile per scatenare la tua creatività. Scoprirai i segreti per animare serate ai fuochi che lasceranno tutti a bocca aperta, imparerai a dare vita a personaggi unici che divertiranno chiunque, e userai la tecnologia per aggiungere effetti speciali così incredibili da sembrare pura magia. Non serve essere un artista nato o saper recitare: quello che conta è la tua voglia di sperimentare e la tua immensa immaginazione. Sei pronto a trasformare la realtà e a lasciare un segno con la tua creatività? Unisciti a noi e scopri come far ruggire il drago che è in te",
         "specialita": [
           "Animazione",
           "Videomaking",

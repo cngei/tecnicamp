@@ -41,6 +41,7 @@ interface Corso {
     max: number
   }
   nuovo: boolean
+  impegno: string
 }
 
 interface Base {
@@ -102,7 +103,7 @@ function App() {
     <div>
       <AppBar position="sticky">
         <Toolbar>
-          <Typography variant="h6">Tecnicamp 2025</Typography>
+          <Typography variant="h6">Tecnicamp 2026</Typography>
         </Toolbar>
         <Box bgcolor="background.paper" p={2} pr={4}>
           <TextField
@@ -165,7 +166,7 @@ function App() {
             migliorare la propria conoscenza delle tecniche scout e di
             sperimentarne di nuove.
             <br />
-            Edizione 2025: <strong>6 basi</strong> Tecnicamp lungo tutto il
+            Edizione 2026: <strong>6 basi</strong> Tecnicamp lungo tutto il
             territorio italiano, sempre più strutturate nelle proposte e nelle
             tecniche per cercare di arrivare a tutti e tutte. Inoltre da
             quest’anno, le nostre basi saranno caratterizzate da un nome che sia
@@ -187,7 +188,7 @@ function App() {
           >
             <Button
               variant="outlined"
-              href="/assets/autodichiarazione_tecnicamp_2025.pdf"
+              href="/assets/autodichiarazione_tecnicamp_2026.pdf"
               target="_blank"
             >
               Scarica Autodichiarazione
@@ -227,8 +228,8 @@ function App() {
                 <br />
                 IBAN: IT 23 Z 06230 03205 000040421938
                 <br />
-                CAUSALE BONIFICO: “Tecnicamp 2025 - Sezione – Nome e Cognome
-                esploratore” (es. Tecnicamp 2025 - Aosta – Mario Rossi)
+                CAUSALE BONIFICO: “Tecnicamp 2026 - Sezione – Nome e Cognome
+                esploratore” (es. Tecnicamp 2026 - Aosta – Mario Rossi)
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -421,12 +422,18 @@ function App() {
                         <Chip label={specialita} />
                       ))}
                     </Box>
-                    <Chip
-                      color="primary"
-                      label={`${corso.anni[0]} - ${
-                        corso.anni[corso.anni.length - 1]
-                      } anno`}
-                    />
+                    <Box sx={{ display: 'flex', flexDirection: 'row', gap: 1, flexWrap: 'wrap', mt: 1 }}>
+                      <Chip
+                        color="primary"
+                        label={`${corso.anni[0]} - ${
+                          corso.anni[corso.anni.length - 1]
+                        } anno`}
+                      />
+                      <Chip
+                        variant="outlined"
+                        label={`Impegno fisico: ${corso.impegno}`}
+                      />
+                    </Box>
                   </CardContent>
                 </Card>
               ))}

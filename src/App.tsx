@@ -209,7 +209,7 @@ function App() {
             >
               Accedi al portale
             </Button>
-            <Button variant="outlined" onClick={() => setConfirmNeedhelp(true)}>
+            <Button variant="outlined" onClick={() => setConfirmNeedHelp(true)}>
               Richieste di assistenza
             </Button>
           </Box>
@@ -459,7 +459,7 @@ function App() {
         ))}
       </Box>
 
-      <Dialog open={confirmNeedHelp} onClose={() => setConfirmNeedhelp(false)}>
+      <Dialog open={confirmNeedHelp} onClose={() => setConfirmNeedHelp(false)}>
         <DialogTitle>Richiesta Assistenza</DialogTitle>
         <DialogContent>
           <DialogContentText>
@@ -475,7 +475,7 @@ function App() {
           }}
         >
           <Button
-            onClick={() => setConfirmNeedhelp(false)}
+            onClick={() => setConfirmNeedHelp(false)}
             variant="contained"
             sx={{ width: isSmall ? "100%" : "inherit" }}
             autoFocus
@@ -484,7 +484,7 @@ function App() {
           </Button>
           <Button
             variant="outlined"
-            onClick={() => setConfirmNeedhelp(false)}
+            onClick={() => setConfirmNeedHelp(false)}
             href="https://help.cngei.it/servicedesk/customer/portal/4"
             target="_blank"
             sx={{ width: isSmall ? "100%" : "inherit", ml: "0 !important" }}

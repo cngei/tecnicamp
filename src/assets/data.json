@@ -97,13 +97,7 @@
         "image": "artigianato.jpg",
         "titolo": "Un'avventura nelle mani",
         "descrizione": "Primi due anni in reparto: vedi svariati materiali e attrezzi e cerchi occasioni per metterli al centro della tua esperienza scout? Eccoci qua... un corso dove l'artigianato diventa avventura: mani pronte, mente aperta e spirito scout in azione! Modellismo, artigianato e carpenteria si intrecciano per trasformare idee in oggetti veri, utili e che non passeranno inosservati. Tra legno e stoffa, metallo e materiali di riciclo, con noi ogni momento, dalla vita di pattuglia/equipaggio allo svago, sarà caratterizzato dal tuo tocco personale. Unico limite: la fantasia!",
-        "specialita": [
-          "Artigianato",
-          "Arte",
-          "Fai da te",
-          "Modellismo",
-          "Carpenteria"
-        ],
+        "specialita": ["Artigianato", "Arte", "Fai da te", "Carpenteria"],
         "anni": [1, 2],
         "partecipanti": {
           "min": 15,
@@ -162,7 +156,7 @@
         "titolo": "Be the Change!",
         "descrizione": "È tempo di agire. È tempo di cambiare. Se senti dentro una voce che spinge, un'idea che brucia, un sogno che non ci sta in tasca... è ora di metterti in gioco! Partecipa a un'esperienza che lascia il segno. Laboratori fuori dagli schemi, sfide da affrontare insieme, missioni nel territorio, incontri con chi il cambiamento lo vive ogni giorno. Scopriremo cosa vuol dire davvero difendere i diritti, vivere la cittadinanza attiva e costruire realtà nuove, coraggiose, vere. Se hai il coraggio di crederci, anche quando sembra impossibile... allora questo è il tuo corso. Perché il cambiamento comincia oggi, comincia qui, comincia da te!",
         "specialita": ["Sfide globali", "Spiritualità nel mondo", "Benessere"],
-        "anni": [4],
+        "anni": [3, 4],
         "partecipanti": {
           "min": 15,
           "max": 28
@@ -341,7 +335,7 @@
         "titolo": "Overcamp",
         "descrizione": "Scopriremo insieme come preparare un'avventura fantastica fra boschi di faggi, creste panoramiche, laghi lucenti come specchi e tramonti mozzafiato. Sei pronto a imparare ad usare la tecnologia per esplorare un territorio sconosciuto? Vuoi scoprire cosa hanno in comune previsioni meteo, mappe, tracce di sentieri... Ma soprattutto, sei pronto a mettere tutte le tue sicurezze in uno zaino essenziale e superare i tuoi limiti in un lungo hike itinerante sulle montagne dell'Appennino Tosco-Emiliano? Unisciti a noi e imparerai che l'avventura inizia molto prima di partire e finisce molto dopo essere tornati a casa!",
         "specialita": ["Avventura", "Orientamento"],
-        "anni": [4],
+        "anni": [3, 4],
         "partecipanti": {
           "min": 14,
           "max": 25
@@ -503,7 +497,7 @@
           "min": 15,
           "max": 20
         },
-        "nuovo": true,
+        "nuovo": false,
         "impegno": "2 - Moderato"
       },
       {
@@ -552,7 +546,7 @@
           "min": 15,
           "max": 20
         },
-        "nuovo": true,
+        "nuovo": false,
         "impegno": "2 - Moderato"
       },
       {
@@ -578,7 +572,7 @@
           "min": 10,
           "max": 15
         },
-        "nuovo": true,
+        "nuovo": false,
         "impegno": "5 - Massimo"
       }
     ]

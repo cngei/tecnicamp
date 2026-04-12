@@ -233,9 +233,9 @@ function App() {
               per il corso scelto.
               <Typography variant="body2">
                 INTESTAZIONE: CORPO NAZIONALE GIOVANI ESPLORATORI ED
-                ESPLORATRICI ITALIANI APS
+                ESPLORATRICI ITALIANIAPS
                 <br />
-                IBAN: IT 23 Z 06230 03205 000040421938
+                IBAN: IT23Z0623003205000040421938
                 <br />
                 CAUSALE BONIFICO: “Tecnicamp 2026 - Sezione – Nome e Cognome
                 esploratore” (es. Tecnicamp 2026 - Aosta – Mario Rossi)

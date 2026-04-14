@@ -155,7 +155,7 @@ function App() {
       <Box display="flex" flexDirection="column" gap={2} width="100%" mx={0}>
         <Container sx={{ py: 2 }}>
           <Alert icon={<Info fontSize="inherit" />} severity="info">
-            Le iscrizioni apriranno <strong>sabato 16 maggio(ore 13:00)</strong> e
+            Le iscrizioni apriranno <strong>sabato 16 maggio (ore 13:00)</strong> e
             resteranno aperte fino al <strong>30 giugno</strong>.
           </Alert>
           <Typography variant="body1" sx={{ my: 2 }}>

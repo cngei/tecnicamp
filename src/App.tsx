@@ -1,4 +1,4 @@
-import { ExpandMore, Info, Search } from '@mui/icons-material'
+import { ExpandMore, Info, Search } from "@mui/icons-material";
 import {
   AccordionDetails,
   Accordion,
@@ -25,47 +25,48 @@ import {
   DialogContent,
   DialogContentText,
   DialogTitle,
-  Button
-} from '@mui/material'
-import { useEffect, useState } from 'react'
-import data from './assets/data.json'
+  Button,
+} from "@mui/material";
+import { useEffect, useState } from "react";
+import data from "./assets/data.json";
 
 interface Corso {
-  image: string
-  titolo: string
-  descrizione: string
-  specialita: string[]
-  anni: number[]
+  image: string;
+  titolo: string;
+  descrizione: string;
+  specialita: string[];
+  anni: number[];
   partecipanti: {
-    min: number
-    max: number
-  }
-  nuovo: boolean
+    min: number;
+    max: number;
+  };
+  nuovo: boolean;
+  impegno: string;
 }
 
 interface Base {
-  nome: string
-  titolo: string
-  image: string
-  date: string
-  logistica: string
-  corsi: Corso[]
+  nome: string;
+  titolo: string;
+  image: string;
+  date: string;
+  logistica: string;
+  corsi: Corso[];
 }
 
 function App() {
-  const [selectedBase, setSelectedBase] = useState<string>('')
-  const [selectedAnno, setSelectedAnno] = useState<number[]>([1, 4])
-  const [searchQuery, setSearchQuery] = useState('')
-  const [filteredData, setFilteredData] = useState<Base[]>(data)
-  const [confirmNeedHelp, setConfirmNeedhelp] = useState<boolean>(false)
-  const isSmall = useMediaQuery('(max-width: 600px)')
+  const [selectedBase, setSelectedBase] = useState<string>("");
+  const [selectedAnno, setSelectedAnno] = useState<number[]>([1, 4]);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredData, setFilteredData] = useState<Base[]>(data);
+  const [confirmNeedHelp, setConfirmNeedHelp] = useState<boolean>(false);
+  const isSmall = useMediaQuery("(max-width: 600px)");
 
   useEffect(() => {
-    let filtered = data
+    let filtered = data;
 
     // Filter by base
     if (selectedBase) {
-      filtered = filtered.filter((base) => base.nome === selectedBase)
+      filtered = filtered.filter((base) => base.nome === selectedBase);
     }
 
     // Filter by anno
@@ -75,34 +76,34 @@ function App() {
           ...base,
           corsi: base.corsi.filter((corso) =>
             corso.anni.some(
-              (anno) => anno >= selectedAnno[0] && anno <= selectedAnno[1]
-            )
-          )
+              (anno) => anno >= selectedAnno[0] && anno <= selectedAnno[1],
+            ),
+          ),
         }))
-        .filter((base) => base.corsi.length > 0)
+        .filter((base) => base.corsi.length > 0);
     }
 
     // Filter by search query
     if (searchQuery) {
-      const query = searchQuery.toLowerCase()
+      const query = searchQuery.toLowerCase();
       filtered = filtered
         .map((base) => ({
           ...base,
           corsi: base.corsi.filter((corso) =>
-            corso.titolo.toLowerCase().includes(query)
-          )
+            corso.titolo.toLowerCase().includes(query),
+          ),
         }))
-        .filter((base) => base.corsi.length > 0)
+        .filter((base) => base.corsi.length > 0);
     }
 
-    setFilteredData(filtered)
-  }, [selectedBase, selectedAnno, searchQuery])
+    setFilteredData(filtered);
+  }, [selectedBase, selectedAnno, searchQuery]);
 
   return (
     <div>
       <AppBar position="sticky">
         <Toolbar>
-          <Typography variant="h6">Tecnicamp 2025</Typography>
+          <Typography variant="h6">Tecnicamp 2026</Typography>
         </Toolbar>
         <Box bgcolor="background.paper" p={2} pr={4}>
           <TextField
@@ -116,24 +117,24 @@ function App() {
                 <InputAdornment position="start">
                   <Search />
                 </InputAdornment>
-              )
+              ),
             }}
           />
           <Box display="flex" alignItems="center" gap={2}>
             <Autocomplete
               size="small"
               value={{ value: selectedBase, label: selectedBase }}
-              onChange={(_, value) => setSelectedBase(value?.value || '')}
+              onChange={(_, value) => setSelectedBase(value?.value || "")}
               fullWidth
               renderInput={(params) => <TextField {...params} label="Base" />}
               options={data.map((base) => ({
                 label: base.titolo,
-                value: base.nome
+                value: base.nome,
               }))}
             />
-            <Box sx={{ width: '90%', px: 4 }}>
+            <Box sx={{ width: "90%", px: 4 }}>
               <Slider
-                getAriaLabel={() => 'Anno'}
+                getAriaLabel={() => "Anno"}
                 value={selectedAnno}
                 onChange={(_, value) => setSelectedAnno(value as number[])}
                 valueLabelDisplay="off"
@@ -142,8 +143,8 @@ function App() {
                 max={4}
                 step={1}
                 marks={[
-                  { value: 1, label: '1° anno' },
-                  { value: 4, label: '4°' }
+                  { value: 1, label: "1° anno" },
+                  { value: 4, label: "4°" },
                 ]}
                 size="small"
               />
@@ -154,40 +155,48 @@ function App() {
       <Box display="flex" flexDirection="column" gap={2} width="100%" mx={0}>
         <Container sx={{ py: 2 }}>
           <Alert icon={<Info fontSize="inherit" />} severity="info">
-            Le iscrizioni apriranno{' '}
-            <strong>domenica 1 giugno alle 12:00</strong> e resteranno aperte
-            fino al <strong>30 giugno</strong>.
+            Le iscrizioni apriranno <strong>sabato 16 maggio(ore 13:00)</strong> e
+            resteranno aperte fino al <strong>30 giugno</strong>.
           </Alert>
           <Typography variant="body1" sx={{ my: 2 }}>
-            Il <strong>Tecnicamp</strong> è un’Attività Nazionale della Branca{' '}
-            <strong>Esploratori ed Esploratrici</strong>: sviluppato in più basi
-            scout in tutta Italia, permette ad esploratrici ed esploratori di
-            migliorare la propria conoscenza delle tecniche scout e di
-            sperimentarne di nuove.
-            <br />
-            Edizione 2025: <strong>6 basi</strong> Tecnicamp lungo tutto il
-            territorio italiano, sempre più strutturate nelle proposte e nelle
-            tecniche per cercare di arrivare a tutti e tutte. Inoltre da
-            quest’anno, le nostre basi saranno caratterizzate da un nome che sia
-            per loro unico ed evocativo, con un pizzico di tecnica ma anche di
-            sogni, aiutandoci a dare ulteriore <strong>slancio</strong> a questo
-            fantastico evento nazionale: soffiano i <strong>Venti</strong>{' '}
-            dell’avventura!
-            <br />
-            Da quale vi lascerete rapire?
+            Il <strong>Tecnicamp</strong> è molto più di un’Attività Nazionale
+            della Branca <strong>Esploratori ed Esploratrici</strong>.
+            <br />È un viaggio che attraversa l’Italia, fatto di basi diverse ma
+            unite dallo stesso spirito: mettersi alla prova, imparare passo dopo
+            passo, spingersi un po’ più in là ogni giorno. Qui le tecniche non
+            sono solo cose da sapere, sono mani che costruiscono, occhi che
+            osservano, testa che immagina. Sono sfide nuove, conquiste che
+            restano. Perché tutto questo prende senso <strong>insieme</strong>:
+            <strong> insieme per</strong> provare, <strong>insieme per</strong>{" "}
+            crescere, <strong>insieme per</strong> andare oltre.
+          </Typography>
+          <Typography variant="body1" sx={{ mb: 1 }}>
+            <strong>Edizione 2026</strong>
+          </Typography>
+          <List dense disablePadding sx={{ mb: 1 }}>
+            <ListItem>
+              - 6 basi Tecnicamp in tutta Italia, sempre più aperte e ricche di
+              possibilità
+            </ListItem>
+            <ListItem>- 36 corsi, ognuno una strada da scegliere</ListItem>
+            <ListItem>- 21 specialità, da scoprire e conquistare</ListItem>
+          </List>
+          <Typography variant="body1">
+            Un’avventura speciale ti aspetta. Sta a te scegliere da dove
+            partire. E fin dove vuoi arrivare.
           </Typography>
           <Box
             sx={{
-              display: 'flex',
-              flexDirection: isSmall ? 'column' : 'row',
+              display: "flex",
+              flexDirection: isSmall ? "column" : "row",
               gap: 2,
               my: 2,
-              justifyContent: 'center'
+              justifyContent: "center",
             }}
           >
             <Button
               variant="outlined"
-              href="/assets/autodichiarazione_tecnicamp_2025.pdf"
+              href="/assets/autodichiarazione_tecnicamp_2026.pdf"
               target="_blank"
             >
               Scarica Autodichiarazione
@@ -200,7 +209,7 @@ function App() {
             >
               Accedi al portale
             </Button>
-            <Button variant="outlined" onClick={() => setConfirmNeedhelp(true)}>
+            <Button variant="outlined" onClick={() => setConfirmNeedHelp(true)}>
               Richieste di assistenza
             </Button>
           </Box>
@@ -223,12 +232,13 @@ function App() {
               pagare il più presto possibile per evitare che terminino i posti
               per il corso scelto.
               <Typography variant="body2">
-                INTESTAZIONE: CNGEI
+                INTESTAZIONE: CORPO NAZIONALE GIOVANI ESPLORATORI ED
+                ESPLORATRICI ITALIANIAPS
                 <br />
-                IBAN: IT 23 Z 06230 03205 000040421938
+                IBAN: IT23Z0623003205000040421938
                 <br />
-                CAUSALE BONIFICO: “Tecnicamp 2025 - Sezione – Nome e Cognome
-                esploratore” (es. Tecnicamp 2025 - Aosta – Mario Rossi)
+                CAUSALE BONIFICO: “Tecnicamp 2026 - Sezione – Nome e Cognome
+                esploratore” (es. Tecnicamp 2026 - Aosta – Mario Rossi)
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -247,9 +257,9 @@ function App() {
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMore />}>
               <Typography component="span">
-                {' '}
+                {" "}
                 Non riesco ad accedere al portale. Non mi arriva nessuna email
-                per l’accesso. Che cosa devo fare?{' '}
+                per l’accesso. Che cosa devo fare?{" "}
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
@@ -316,43 +326,43 @@ function App() {
           <Box
             key={base.nome}
             sx={{
-              display: 'flex',
-              flexDirection: 'column',
+              display: "flex",
+              flexDirection: "column",
               gap: 2,
-              justifyContent: 'center',
-              alignItems: 'center'
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
             <Box
               sx={{
                 backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0)), url(/assets/${base.image})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                width: '100%',
-                height: '250px',
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'start',
-                justifyContent: 'start',
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                width: "100%",
+                height: "250px",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "start",
+                justifyContent: "start",
                 px: 4,
-                py: 2
+                py: 2,
               }}
             >
               <Typography
-                sx={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}
+                sx={{ color: "white", fontSize: "2rem", fontWeight: "bold" }}
               >
                 {base.titolo}
               </Typography>
-              <Typography sx={{ color: 'white', fontSize: '1rem' }}>
+              <Typography sx={{ color: "white", fontSize: "1rem" }}>
                 {base.date}
               </Typography>
             </Box>
             <Box
               sx={{
-                width: isSmall ? '90%' : '100%',
-                maxWidth: 'max(700px, 80%)',
-                mx: 2
+                width: isSmall ? "90%" : "100%",
+                maxWidth: "max(700px, 80%)",
+                mx: 2,
               }}
             >
               <Accordion>
@@ -368,33 +378,33 @@ function App() {
             </Box>
             <Box
               sx={{
-                maxWidth: 'max(700px, 80%)',
-                display: 'grid',
-                gridAutoFlow: 'row',
+                maxWidth: "max(700px, 80%)",
+                display: "grid",
+                gridAutoFlow: "row",
                 gridTemplateColumns: isSmall
-                  ? '1fr'
-                  : 'repeat(auto-fill, minmax(40%, 1fr))',
+                  ? "1fr"
+                  : "repeat(auto-fill, minmax(40%, 1fr))",
                 gap: 2,
                 mx: 2,
-                my: 2
+                my: 2,
               }}
             >
               {base.corsi.map((corso) => (
-                <Card key={corso.titolo} sx={{ height: '100%' }}>
+                <Card key={corso.titolo} sx={{ height: "100%" }}>
                   <CardMedia
                     component="img"
-                    sx={{ height: '200px' }}
+                    sx={{ height: "200px" }}
                     image={`/assets/${base.nome}/${corso.image}`}
                     alt={corso.titolo}
                   />
                   <CardContent>
                     <Box
                       sx={{
-                        display: 'flex',
-                        flexDirection: 'row',
-                        alignItems: 'first baseline',
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "first baseline",
                         gap: 2,
-                        justifyContent: 'space-between'
+                        justifyContent: "space-between",
                       }}
                     >
                       <Typography variant="h6">{corso.titolo}</Typography>
@@ -410,23 +420,37 @@ function App() {
                     <Typography variant="body2">{corso.descrizione}</Typography>
                     <Box
                       sx={{
-                        display: 'flex',
-                        flexDirection: 'row',
+                        display: "flex",
+                        flexDirection: "row",
                         gap: 2,
                         my: 2,
-                        flexWrap: 'wrap'
+                        flexWrap: "wrap",
                       }}
                     >
                       {corso.specialita.map((specialita) => (
                         <Chip label={specialita} />
                       ))}
                     </Box>
-                    <Chip
-                      color="primary"
-                      label={`${corso.anni[0]} - ${
-                        corso.anni[corso.anni.length - 1]
-                      } anno`}
-                    />
+                    <Box
+                      sx={{
+                        display: "flex",
+                        flexDirection: "row",
+                        gap: 1,
+                        flexWrap: "wrap",
+                        mt: 1,
+                      }}
+                    >
+                      <Chip
+                        color="primary"
+                        label={`${corso.anni[0]} - ${
+                          corso.anni[corso.anni.length - 1]
+                        } anno`}
+                      />
+                      <Chip
+                        variant="outlined"
+                        label={`Impegno fisico: ${corso.impegno}`}
+                      />
+                    </Box>
                   </CardContent>
                 </Card>
               ))}
@@ -435,7 +459,7 @@ function App() {
         ))}
       </Box>
 
-      <Dialog open={confirmNeedHelp} onClose={() => setConfirmNeedhelp(false)}>
+      <Dialog open={confirmNeedHelp} onClose={() => setConfirmNeedHelp(false)}>
         <DialogTitle>Richiesta Assistenza</DialogTitle>
         <DialogContent>
           <DialogContentText>
@@ -445,32 +469,32 @@ function App() {
         </DialogContent>
         <DialogActions
           sx={{
-            display: 'flex',
-            flexDirection: isSmall ? 'column' : 'row',
-            gap: 2
+            display: "flex",
+            flexDirection: isSmall ? "column" : "row",
+            gap: 2,
           }}
         >
           <Button
-            onClick={() => setConfirmNeedhelp(false)}
+            onClick={() => setConfirmNeedHelp(false)}
             variant="contained"
-            sx={{ width: isSmall ? '100%' : 'inherit' }}
+            sx={{ width: isSmall ? "100%" : "inherit" }}
             autoFocus
           >
             Non ne ho bisogno
           </Button>
           <Button
             variant="outlined"
-            onClick={() => setConfirmNeedhelp(false)}
+            onClick={() => setConfirmNeedHelp(false)}
             href="https://help.cngei.it/servicedesk/customer/portal/4"
             target="_blank"
-            sx={{ width: isSmall ? '100%' : 'inherit', ml: '0 !important' }}
+            sx={{ width: isSmall ? "100%" : "inherit", ml: "0 !important" }}
           >
             Ne ho veramente bisogno
           </Button>
         </DialogActions>
       </Dialog>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

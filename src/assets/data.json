@@ -334,7 +334,7 @@
         "image": "overcamp.jpg",
         "titolo": "Overcamp",
         "descrizione": "Scopriremo insieme come preparare un'avventura fantastica fra boschi di faggi, creste panoramiche, laghi lucenti come specchi e tramonti mozzafiato. Sei pronto a imparare ad usare la tecnologia per esplorare un territorio sconosciuto? Vuoi scoprire cosa hanno in comune previsioni meteo, mappe, tracce di sentieri... Ma soprattutto, sei pronto a mettere tutte le tue sicurezze in uno zaino essenziale e superare i tuoi limiti in un lungo hike itinerante sulle montagne dell'Appennino Tosco-Emiliano? Unisciti a noi e imparerai che l'avventura inizia molto prima di partire e finisce molto dopo essere tornati a casa!",
-        "specialita": ["Avventura", "Orientamento"],
+        "specialita": ["Esplorazione", "Orientamento"],
         "anni": [3, 4],
         "partecipanti": {
           "min": 14,

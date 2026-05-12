@@ -196,10 +196,10 @@ function App() {
           >
             <Button
               variant="outlined"
-              href="/assets/autodichiarazione_tecnicamp_2026.pdf"
+              href="/assets/LIBERATORIA%20somministrazione%20farmaci.pdf"
               target="_blank"
             >
-              Scarica Autodichiarazione
+              Scarica Liberatoria Assunzione Farmaci
             </Button>
             <Button
               variant="contained"
@@ -245,13 +245,19 @@ function App() {
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMore />}>
               <Typography component="span">
-                Cosa devo fare con l'autodichiarazione?
+                Cosa devo fare con la liberatoria assunzione farmaci?
               </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              L'autodichiarazione, che puoi scaricare tramite il pulsante qui
-              sopra, dovrà essere compilata e caricata sul portale durante
-              l'iscrizione al tecnicamp, senza non è possibile iscriversi.
+              Se durante il Tecnicamp dovrai assumere farmaci, sarà necessario:
+              <List>
+                <ListItem>
+                  - Compilare e firmare in ogni sua parte la liberatoria scaricabile qui sopra;
+                </ListItem>
+                <ListItem>- Caricare la liberatoria sul portale durante l’iscrizione;</ListItem>
+                <ListItem>- Allegare obbligatoriamente anche la prescrizione medica.</ListItem>
+              </List>
+              Se durante il Tecnicamp dovrai assumere farmaci, in assenza di entrambi i documenti, non ti sarà possibile partecipare e l’iscrizione verrà annullata.
             </AccordionDetails>
           </Accordion>
           <Accordion>
@@ -485,7 +491,7 @@ function App() {
           <Button
             variant="outlined"
             onClick={() => setConfirmNeedHelp(false)}
-            href="https://help.cngei.it/servicedesk/customer/portal/4"
+            href="https://jira.cngei.it/servicedesk/customer/portal/4/create/34"
             target="_blank"
             sx={{ width: isSmall ? "100%" : "inherit", ml: "0 !important" }}
           >

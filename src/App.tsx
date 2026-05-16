@@ -179,7 +179,7 @@ function App() {
               possibilità
             </ListItem>
             <ListItem>- 36 corsi, ognuno una strada da scegliere</ListItem>
-            <ListItem>- 21 specialità, da scoprire e conquistare</ListItem>
+            <ListItem>- 20 specialità, da scoprire e conquistare</ListItem>
           </List>
           <Typography variant="body1">
             Un’avventura speciale ti aspetta. Sta a te scegliere da dove
@@ -197,6 +197,13 @@ function App() {
             <Button
               variant="outlined"
               href="/assets/LIBERATORIA%20somministrazione%20farmaci.pdf"
+              target="_blank"
+            >
+              Scarica la Circolare
+            </Button>
+            <Button
+              variant="outlined"
+              href="https://cloud.cngei.it/index.php/s/HwNXg7soZ6mEAKy/download/Circolare%20Esplo%20Tecnicamp%202026.pdf"
               target="_blank"
             >
               Scarica Liberatoria Assunzione Farmaci

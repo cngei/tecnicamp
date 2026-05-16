@@ -199,14 +199,14 @@ function App() {
               href="/assets/LIBERATORIA%20somministrazione%20farmaci.pdf"
               target="_blank"
             >
-              Scarica la Circolare
+              Scarica Liberatoria Assunzione Farmaci
             </Button>
             <Button
               variant="outlined"
               href="https://cloud.cngei.it/index.php/s/HwNXg7soZ6mEAKy/download/Circolare%20Esplo%20Tecnicamp%202026.pdf"
               target="_blank"
             >
-              Scarica Liberatoria Assunzione Farmaci
+              Scarica Circolare
             </Button>
             <Button
               variant="contained"
